@@ -1,0 +1,28 @@
+{
+  "name": "keikamotsu-compass",
+  "version": "0.1.0",
+  "private": true,
+  "description": "軽貨物コンパス — 千葉船橋エリア軽貨物業者比較ランキングメディア (運営: 株式会社EST FORT)",
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "next": "16.2.3",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "remark": "^15.0.1",
+    "remark-gfm": "^4.0.1",
+    "remark-html": "^16.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
