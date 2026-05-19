@@ -20,6 +20,10 @@ export const metadata: Metadata = {
   },
   twitter: { card: "summary_large_image" },
   robots: { index: true, follow: true },
+  // GSC verification (token は Vercel env `GSC_KEIKAMOTSU_VERIFICATION_TOKEN` 経由・代表LINE依頼で取得後投入)
+  verification: {
+    google: process.env.GSC_KEIKAMOTSU_VERIFICATION_TOKEN,
+  },
 };
 
 const DISCLOSURE_URL =

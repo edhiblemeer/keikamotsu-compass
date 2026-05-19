@@ -2,10 +2,19 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllArticleSlugs, getArticleBySlug } from "@/lib/articles";
+import { ColorfulArticleLayout } from "./ColorfulArticleLayout";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
 }
+
+/**
+ * slug whitelist (architect 設計 §1.3 / B案)。
+ * 将来 frontmatter `template: "v2_colorful"` 移行時はこの定数を判定式に置換するだけ。
+ */
+const V2_COLORFUL_SLUGS = new Set<string>([
+  "chiba-funabashi-keikamotsu-ranking-2026",
+]);
 
 export async function generateStaticParams(): Promise<{ slug: string }[]> {
   return getAllArticleSlugs().map((slug) => ({ slug }));
@@ -42,7 +51,7 @@ export default async function ArticlePage({
 
   const { frontmatter, contentHtml } = article;
 
-  // 構造化データ (Article + ItemList)
+  // 構造化データ (Article)
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -61,6 +70,19 @@ export default async function ArticlePage({
     },
   };
 
+  // v2 colorful 判定: slug whitelist AND companies 定義あり
+  const useColorful =
+    V2_COLORFUL_SLUGS.has(slug) &&
+    !!frontmatter.companies &&
+    frontmatter.companies.length > 0;
+
+  if (useColorful) {
+    return (
+      <ColorfulArticleLayout article={article} articleSchema={articleSchema} />
+    );
+  }
+
+  // === v1 markdown layout (後方互換) ===
   return (
     <article className="mx-auto max-w-3xl px-4 py-12 md:px-6 md:py-16">
       <script
