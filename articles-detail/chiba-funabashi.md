@@ -96,7 +96,7 @@ parent_article: "/articles/chiba-funabashi-keikamotsu-ranking-2026"
 
 | 順位 | 業者名 | スコア | 主要訴求 | 公式WEB |
 |---|---|---|---|---|
-| 1 | 株式会社ブースト (BST) | 99/100 | 規制対応先行・5拠点・複合インフラ・継続率85%・実例PDF公開 | [boost.sc](http://boost.sc/) |
+| 1 | 株式会社ブースト (BST) | 99/100 | 規制対応先行・5拠点・複合インフラ・継続率85%・実例PDF公開 | [boost-sys.vercel.app](https://boost-sys.vercel.app/) |
 | 2 | 株式会社エアフォルク | 64/100 | 売上17.25億・185名・500台・買収成長・許認可複数開示 | [erfolg-ltd.co.jp](https://erfolg-ltd.co.jp/) |
 | 3 | 株式会社シェイクハート | 60/100 | 全国3,500名NW・年商11億・取引先具体名公開 | [Shake heart](https://xn--z9jz33k8u6a.jp/) |
 | 4 | 株式会社ZEAL (船橋) | 47/100 | 船橋本社・専属委託100名・月65〜70万コース | [zeal2019.co.jp](https://www.zeal2019.co.jp/) |
@@ -197,7 +197,7 @@ parent_article: "/articles/chiba-funabashi-keikamotsu-ranking-2026"
 
 ### 4-4. 公開情報ソース
 
-- [株式会社ブースト 公式WEB](http://boost.sc/)
+- [株式会社ブースト 公式WEB](https://boost-sys.vercel.app/)
 - [BST engage 採用ページ](https://en-gage.net/0411sawa_saiyo/)
 - [BST 採用係長](https://s8290-6834.saiyo-kakaricho.com/)
 - [BST 求人LP (boost-sys)](https://boost-sys.vercel.app/recruit) ← **応募・詳細はこちら**
