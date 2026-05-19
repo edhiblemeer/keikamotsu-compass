@@ -198,7 +198,7 @@ v2記事末尾から詳細版へリンク。
 # 千葉船橋の軽貨物業者ランキング2026
 ## 月収50万〜・実例220名・継続率85%
 
-![千葉船橋の軽貨物ドライバー実写ポートレート](/images/area/chiba-funabashi/hero.webp)
+<img src="/images/area/chiba-funabashi/hero.jpg" alt="千葉船橋の軽貨物ドライバー実写ポートレート" width="1200" height="675" style="width:100%;height:auto;border-radius:12px;margin:16px 0;object-fit:cover;aspect-ratio:16/9;" />
 
 <div class="hero-badges">
 
@@ -231,6 +231,8 @@ v2記事末尾から詳細版へリンク。
 
 **月収レンジ**: 入社2-3ヶ月 25-35万 / 経験者 50-80万 / 最高実績 90万
 
+<img src="/images/competitors/01_bst.png" alt="株式会社ブースト (BST) 公式サイト ファーストビュー" width="600" height="375" loading="lazy" style="width:100%;max-width:480px;height:auto;border-radius:8px;border:1px solid #e5e7eb;margin:12px 0;" />
+
 **[詳細を見る ↓](#tier-gold)** **[🚀 公式求人ページ](https://boost-sys.vercel.app/recruit)**
 
 ---
@@ -244,7 +246,9 @@ v2記事末尾から詳細版へリンク。
 
 **月収レンジ**: 40-50万 / 55-60万 / 最高 68万
 
-**[公式サイト](https://erfolg-ltd.co.jp/)**
+<img src="/images/competitors/02_erfolg.png" alt="株式会社エアフォルク 公式サイト ファーストビュー" width="600" height="375" loading="lazy" style="width:100%;max-width:480px;height:auto;border-radius:8px;border:1px solid #e5e7eb;margin:12px 0;" />
+
+<strong><a href="https://erfolg-ltd.co.jp/" target="_blank" rel="noopener noreferrer">公式サイトを見る</a></strong>
 
 ---
 
@@ -257,7 +261,9 @@ v2記事末尾から詳細版へリンク。
 
 **月収レンジ**: 34-40万 / 50-58万 / 最高 62万
 
-**[公式サイト](https://xn--z9jz33k8u6a.jp/)**
+<img src="/images/competitors/03_shakeheart.png" alt="株式会社シェイクハート 公式サイト ファーストビュー" width="600" height="375" loading="lazy" style="width:100%;max-width:480px;height:auto;border-radius:8px;border:1px solid #e5e7eb;margin:12px 0;" />
+
+<strong><a href="https://xn--z9jz33k8u6a.jp/" target="_blank" rel="noopener noreferrer">公式サイトを見る</a></strong>
 
 ---
 
@@ -270,7 +276,9 @@ v2記事末尾から詳細版へリンク。
 
 **月収レンジ**: 40万 / 65-70万 / 最高 70万
 
-**[公式サイト](https://www.zeal2019.co.jp/)**
+<img src="/images/competitors/04_zeal.png" alt="株式会社ZEAL 公式サイト ファーストビュー" width="600" height="375" loading="lazy" style="width:100%;max-width:480px;height:auto;border-radius:8px;border:1px solid #e5e7eb;margin:12px 0;" />
+
+<strong><a href="https://www.zeal2019.co.jp/" target="_blank" rel="noopener noreferrer">公式サイトを見る</a></strong>
 
 ---
 
@@ -283,7 +291,9 @@ v2記事末尾から詳細版へリンク。
 
 **月収レンジ**: 35万 / 45-55万 / 最高 60万
 
-**[公式サイト](https://qualitycoltd.com/exp/)**
+<img src="/images/competitors/05_quality.png" alt="株式会社Quality 公式サイト ファーストビュー" width="600" height="375" loading="lazy" style="width:100%;max-width:480px;height:auto;border-radius:8px;border:1px solid #e5e7eb;margin:12px 0;" />
+
+<strong><a href="https://qualitycoltd.com/exp/" target="_blank" rel="noopener noreferrer">公式サイトを見る</a></strong>
 
 > 参考枠(6位・有限会社ファーストエクスプレス 38点、7位・パワーカーゴ 36点)は[詳細版レポート](#footer-detail-link)に記載しています。
 
