@@ -38,6 +38,7 @@ export interface CompanyData {
   locations: string[];
   official_url: string;
   apply_url?: string;
+  line_url?: string;
   image?: string;
   profile_description?: string;
   caveat?: string;
@@ -182,6 +183,7 @@ function normalizeCompanies(data: RawFrontmatter): CompanyData[] | undefined {
           : [],
         official_url: typeof c.official_url === "string" ? c.official_url : "",
         apply_url: typeof c.apply_url === "string" ? c.apply_url : undefined,
+        line_url: typeof c.line_url === "string" ? c.line_url : undefined,
         image: typeof c.image === "string" ? c.image : undefined,
         profile_description:
           typeof c.profile_description === "string"

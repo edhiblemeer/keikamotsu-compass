@@ -25,6 +25,7 @@ export function ColorfulArticleLayout({
   const { frontmatter, contentHtml } = article;
   const companies = frontmatter.companies ?? [];
   const hero = frontmatter.visuals?.hero_image;
+  const topCompany = companies.find((c) => c.rank === 1);
 
   // hero_badges 自動生成 (architect §8.3)
   const badges: HeroBadge[] =
@@ -50,6 +51,8 @@ export function ColorfulArticleLayout({
           hero={hero}
           badges={badges}
           disclosureLines={disclosureLines}
+          primaryCtaHref={topCompany?.apply_url ?? "#tier-gold"}
+          secondaryCtaHref={topCompany?.line_url ?? "#cta"}
         />
       ) : (
         <header className="mb-8 border-b border-[hsl(var(--border))] pb-6">
