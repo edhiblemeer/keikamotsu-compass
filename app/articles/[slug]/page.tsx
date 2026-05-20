@@ -18,6 +18,7 @@ interface PageProps {
 const V2_COLORFUL_SLUGS = new Set<string>([
   "chiba-funabashi-keikamotsu-ranking-2026",
   "ichikawa-keikamotsu-ranking-2026",
+  "yachiyo-keikamotsu-ranking-2026",
 ]);
 
 export async function generateStaticParams(): Promise<{ slug: string }[]> {
