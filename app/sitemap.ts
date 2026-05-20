@@ -1,7 +1,8 @@
 import type { MetadataRoute } from "next";
 import { getAllArticleSlugs, getAllDetailSlugs } from "@/lib/articles";
 
-const BASE = "https://keikamotsu-compass.vercel.app";
+// 新ドメイン: アドレス変更 SEO引継 (2026-05-20)・GSC sitemap submit で新URL認識のため
+const BASE = "https://www.kei-compass.org";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
