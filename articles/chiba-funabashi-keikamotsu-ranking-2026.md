@@ -202,10 +202,10 @@ personas_targeted:
 # === ビジュアル素材 ===
 visuals:
   hero_image:
-    src: "/images/area/chiba-funabashi/hero.jpg"
+    src: "/images/area/chiba-funabashi/hero_v3.jpg"
     alt: "千葉船橋エリアの軽貨物配送イメージ"
     ai_prompt: "Aerial view of Funabashi city skyline at golden hour, light delivery truck in foreground with subtle motion blur, warm orange-pink sunset, photorealistic, 16:9 aspect ratio, no text"
-    fallback: "/images/area/chiba-funabashi/hero.jpg"
+    fallback: "/images/area/chiba-funabashi/hero_v3.jpg"
   area_map:
     src: "/images/area/chiba-funabashi/map.svg"
     alt: "千葉船橋エリア地図・BST 5拠点ピン"
@@ -227,7 +227,7 @@ publishedAt: "2026-05-19"
 updatedAt: "2026-05-19"
 area_label: "千葉船橋エリア"
 excerpt: "千葉船橋エリアの軽貨物業者9社を15項目で機械的に採点したランキング2026年版。 BST 99/100点1位。 月収50-90万円実例 + 継続率85%。"
-og_image: "/images/area/funabashi/og.jpg"
+og_image: "/images/area/chiba-funabashi/og.jpg"
 tags:
   - "千葉船橋"
   - "軽貨物"
