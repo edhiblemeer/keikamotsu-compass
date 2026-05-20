@@ -31,9 +31,9 @@ export const metadata: Metadata = {
 const PLANNED_AREAS = [
   { slug: "chiba-funabashi-keikamotsu-ranking-2026", name: "千葉船橋エリア", status: "公開済" },
   { slug: "ichikawa-keikamotsu-ranking-2026", name: "市川市", status: "公開済" },
-  { slug: "chiba-city-keikamotsu-ranking-2026", name: "千葉市", status: "準備中" },
-  { slug: "matsudo-keikamotsu-ranking-2026", name: "松戸市", status: "準備中" },
-  { slug: "yachiyo-keikamotsu-ranking-2026", name: "八千代市", status: "準備中" },
+  { slug: "chiba-shi-keikamotsu-ranking-2026", name: "千葉市", status: "公開済" },
+  { slug: "matsudo-keikamotsu-ranking-2026", name: "松戸市", status: "公開済" },
+  { slug: "yachiyo-keikamotsu-ranking-2026", name: "八千代市", status: "公開済" },
   { slug: "inzai-keikamotsu-ranking-2026", name: "印西市", status: "準備中" },
   { slug: "abiko-keikamotsu-ranking-2026", name: "我孫子市", status: "準備中" },
   { slug: "kamagaya-keikamotsu-ranking-2026", name: "鎌ケ谷市", status: "準備中" },
