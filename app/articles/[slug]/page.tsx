@@ -4,6 +4,9 @@ import { notFound } from "next/navigation";
 import { getAllArticleSlugs, getArticleBySlug } from "@/lib/articles";
 import { ColorfulArticleLayout } from "./ColorfulArticleLayout";
 
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://keikamotsu-compass.vercel.app";
+
 interface PageProps {
   params: Promise<{ slug: string }>;
 }
@@ -28,6 +31,13 @@ export async function generateMetadata({
   const article = await getArticleBySlug(slug);
   if (!article) return { title: "記事が見つかりません" };
 
+  const ogImageRel = article.frontmatter.ogImage;
+  const ogImageAbs = ogImageRel
+    ? ogImageRel.startsWith("http")
+      ? ogImageRel
+      : `${SITE_URL}${ogImageRel}`
+    : undefined;
+
   return {
     title: article.frontmatter.title,
     description: article.frontmatter.description,
@@ -39,7 +49,23 @@ export async function generateMetadata({
       type: "article",
       publishedTime: article.frontmatter.publishedAt,
       modifiedTime: article.frontmatter.updatedAt,
+      images: ogImageAbs
+        ? [
+            {
+              url: ogImageAbs,
+              width: 1200,
+              height: 630,
+              alt: article.frontmatter.title,
+            },
+          ]
+        : undefined,
     },
+    twitter: ogImageAbs
+      ? {
+          card: "summary_large_image",
+          images: [ogImageAbs],
+        }
+      : undefined,
   };
 }
 
@@ -52,6 +78,12 @@ export default async function ArticlePage({
 
   const { frontmatter, contentHtml } = article;
 
+  const ogImageAbs = frontmatter.ogImage
+    ? frontmatter.ogImage.startsWith("http")
+      ? frontmatter.ogImage
+      : `${SITE_URL}${frontmatter.ogImage}`
+    : undefined;
+
   // 構造化データ (Article)
   const articleSchema = {
     "@context": "https://schema.org",
@@ -60,6 +92,7 @@ export default async function ArticlePage({
     description: frontmatter.description,
     datePublished: frontmatter.publishedAt,
     dateModified: frontmatter.updatedAt ?? frontmatter.publishedAt,
+    ...(ogImageAbs && { image: ogImageAbs }),
     author: {
       "@type": "Organization",
       name: "株式会社EST FORT",

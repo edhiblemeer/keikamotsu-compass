@@ -105,6 +105,7 @@ export interface ArticleFrontmatter {
   tags?: string[];
   area?: string;
   excerpt?: string;
+  ogImage?: string;
   // === v2 colorful 拡張 (全 optional / 後方互換) ===
   template?: "v2_colorful" | "default";
   companies?: CompanyData[];
@@ -328,6 +329,12 @@ function normalizeFrontmatter(data: RawFrontmatter): ArticleFrontmatter {
           ? `${data.area.name}エリア`
           : undefined;
   const excerpt = typeof data.excerpt === "string" ? data.excerpt : undefined;
+  const ogImage =
+    typeof data.og_image === "string"
+      ? data.og_image
+      : typeof data.ogImage === "string"
+        ? data.ogImage
+        : undefined;
   const template =
     data.template === "v2_colorful" || data.template === "default"
       ? data.template
@@ -342,6 +349,7 @@ function normalizeFrontmatter(data: RawFrontmatter): ArticleFrontmatter {
     tags,
     area: areaLabel,
     excerpt,
+    ogImage,
     template,
     companies: normalizeCompanies(data),
     area_data: normalizeAreaData(data),
