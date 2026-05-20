@@ -22,6 +22,8 @@ const V2_COLORFUL_SLUGS = new Set<string>([
   "chiba-shi-keikamotsu-ranking-2026",
   "matsudo-keikamotsu-ranking-2026",
   "abiko-keikamotsu-ranking-2026",
+  "inzai-keikamotsu-ranking-2026",
+  "kamagaya-keikamotsu-ranking-2026",
 ]);
 
 export async function generateStaticParams(): Promise<{ slug: string }[]> {

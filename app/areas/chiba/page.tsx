@@ -34,9 +34,9 @@ const PLANNED_AREAS = [
   { slug: "chiba-shi-keikamotsu-ranking-2026", name: "千葉市", status: "公開済" },
   { slug: "matsudo-keikamotsu-ranking-2026", name: "松戸市", status: "公開済" },
   { slug: "yachiyo-keikamotsu-ranking-2026", name: "八千代市", status: "公開済" },
-  { slug: "inzai-keikamotsu-ranking-2026", name: "印西市", status: "準備中" },
+  { slug: "inzai-keikamotsu-ranking-2026", name: "印西市", status: "公開済" },
   { slug: "abiko-keikamotsu-ranking-2026", name: "我孫子市", status: "公開済" },
-  { slug: "kamagaya-keikamotsu-ranking-2026", name: "鎌ケ谷市", status: "準備中" },
+  { slug: "kamagaya-keikamotsu-ranking-2026", name: "鎌ケ谷市", status: "公開済" },
 ];
 
 export default function ChibaHubPage(): React.ReactElement {
