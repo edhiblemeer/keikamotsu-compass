@@ -109,7 +109,7 @@ companies:
     official_url: "https://boost-sys.vercel.app/"
     apply_url: "https://boost-sys.vercel.app/recruit"
     line_url: "https://lin.ee/VJyCO8D"
-    image: "/images/competitors/01_bst.png"
+    image: "/images/competitors/bst.png"
 
   - id: erfolg
     rank: 2
@@ -128,7 +128,7 @@ companies:
     matsudo_score_note: "松戸No.1の地元密着大手・松戸IC近接・配送エリア千葉/東京/神奈川/埼玉/茨城に広域展開。BSTとは4点差の僅差で並走"
     official_url: "https://erfolg-ltd.co.jp/"
     matsudo_advantage: "松戸本社ゆえ松戸市重み付けで+18点(船橋版60→松戸版88)"
-    image: "/images/competitors/02_erfolg.png"
+    image: "/images/competitors/erfolg.png"
 
   - id: shakeheart
     rank: 3
@@ -146,7 +146,7 @@ companies:
     locations: ["市川本社(新井)", "千葉南", "東京", "神奈川", "秋田", "福島"]
     matsudo_score_note: "市川本社で松戸市内拠点なし。大手取引先網の強さは松戸でも案件供給力に直結"
     official_url: "https://xn--z9jz33k8u6a.jp/"
-    image: "/images/competitors/03_shakeheart.png"
+    image: "/images/competitors/shakeheart.png"
 
   - id: power_cargo
     rank: 4
@@ -164,7 +164,7 @@ companies:
     locations: ["市川本社(塩焼)", "大阪堺"]
     matsudo_score_note: "市川本社で松戸まで距離大・湾岸特化のため松戸市内案件のシェアは限定的"
     official_url: "https://power-cargo.jp/"
-    image: "/images/competitors/06_power-cargo.png"
+    image: "/images/competitors/power-cargo.png"
 
   - id: hot
     rank: 5
@@ -182,6 +182,7 @@ companies:
     locations: ["松戸本社(小金原)"]
     matsudo_score_note: "松戸小金原本社・常磐線北小金駅勢圏・武蔵野線アクセス可。設立年/車両数/取引先は公式未開示"
     official_url: "https://www.hot-8152.com/"
+    image: "/images/competitors/hot.png"
     matsudo_advantage: "松戸本社ゆえ松戸市重み付けで+10点"
 
   - id: yagate
@@ -200,6 +201,7 @@ companies:
     locations: ["松戸本社(根本)"]
     matsudo_score_note: "松戸根本本社・冷凍冷蔵車複数保有で松戸南部市場発の食品配送案件との親和性が高い。産廃収集運搬も併営"
     official_url: "https://yagate1.co.jp/"
+    image: "/images/competitors/yagate.png"
     matsudo_advantage: "松戸本社+冷凍車対応で松戸市重み付け+8点"
 
   - id: zeal
@@ -218,7 +220,7 @@ companies:
     locations: ["船橋本社"]
     matsudo_score_note: "船橋本社で松戸まで距離大・市内案件は越境配送に限定"
     official_url: "https://www.zeal2019.co.jp/"
-    image: "/images/competitors/04_zeal.png"
+    image: "/images/competitors/zeal.png"
 
   - id: quality
     rank: 8
@@ -236,7 +238,7 @@ companies:
     locations: ["鎌ケ谷本社", "船橋金杉拠点"]
     matsudo_score_note: "鎌ケ谷本社で松戸隣接・常磐線/武蔵野線/京成松戸線でアクセス可・許認可基盤堅実"
     official_url: "https://qualitycoltd.com/exp/"
-    image: "/images/competitors/05_quality.png"
+    image: "/images/competitors/quality.png"
 
   - id: tachibana
     rank: 9
@@ -254,6 +256,7 @@ companies:
     locations: ["松戸本社(高塚新田)"]
     matsudo_score_note: "松戸高塚新田本社・松飛台駅勢圏でDPL松戸II/ラサールロジポート松戸松飛台近接。新興のため実績/規模は未確認"
     official_url: "https://www.tatibanaunso.com/"
+    image: "/images/competitors/tachibana.png"
     matsudo_advantage: "松戸本社+物流施設集積エリア立地で松戸市重み付け+6点"
 
   - id: farst
@@ -272,6 +275,7 @@ companies:
     locations: ["船橋本社", "千葉倉庫"]
     matsudo_score_note: "船橋本社・松戸市内拠点なし・船橋/千葉拠点からの越境配送"
     official_url: "http://farst-exp.com/"
+    image: "/images/competitors/firstexpress.png"
 
   - id: corefull
     rank: 11
@@ -289,6 +293,7 @@ companies:
     locations: ["松戸本社(本町)"]
     matsudo_score_note: "松戸本町本社・松戸駅徒歩圏で参考枠扱い。設立年/代表者/車両数は公式未開示"
     official_url: "https://corefull1031.com/"
+    image: "/images/competitors/corefull.png"
 
 # === ペルソナ刺さりマップ ===
 personas_targeted:

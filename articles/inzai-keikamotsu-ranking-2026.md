@@ -115,7 +115,7 @@ companies:
     official_url: "https://boost-sys.vercel.app/"
     apply_url: "https://boost-sys.vercel.app/recruit"
     line_url: "https://lin.ee/VJyCO8D"
-    image: "/images/competitors/01_bst.png"
+    image: "/images/competitors/bst.png"
 
   - id: kaneun
     rank: 2
@@ -134,7 +134,7 @@ companies:
     inzai_score_note: "印西市本社の老舗運送業者として最大規模・地元案件依存度が高い。一般貨物中心で軽貨物専業ではない点に注意"
     official_url: "https://kaneun.com/"
     inzai_advantage: "印西本社+1971年創業の重み付けで+10点(他エリアでは取扱なし)"
-    image: "/images/competitors/00_kaneun.png"
+    image: "/images/competitors/kaneun.png"
 
   - id: has
     rank: 3
@@ -152,7 +152,7 @@ companies:
     locations: ["全国営業所網 (関東中心)"]
     inzai_score_note: "印西市内専用拠点は明示されないが、全国ネットワークで印西エリアを営業圏としてカバー。DC関連BtoB案件の保有可能性"
     official_url: "https://has-ltd.co.jp/"
-    image: "/images/competitors/07_has.png"
+    image: "/images/competitors/has.png"
 
   - id: shakeheart
     rank: 4
@@ -170,7 +170,7 @@ companies:
     locations: ["市川本社", "千葉南", "東京", "神奈川", "秋田", "福島"]
     inzai_score_note: "印西市内拠点はないが、大手ベース下請構造で印西営業所(ヤマト3拠点・佐川・西濃)発の案件供給を受けやすい"
     official_url: "https://xn--z9jz33k8u6a.jp/"
-    image: "/images/competitors/03_shakeheart.png"
+    image: "/images/competitors/shakeheart.png"
 
   - id: logiquest
     rank: 5
@@ -188,7 +188,7 @@ companies:
     locations: ["全国51営業所 (千葉県内拠点詳細は非公開)"]
     inzai_score_note: "印西エリアは営業圏として全国NWでカバー。具体拠点は公開情報で取得できず、応募時に確認推奨"
     official_url: "https://logiquest.co.jp/"
-    image: "/images/competitors/08_logiquest.png"
+    image: "/images/competitors/logiquest.png"
 
   - id: erfolg
     rank: 6
@@ -206,7 +206,7 @@ companies:
     locations: ["松戸本社", "市川営業所", "東京葛飾", "茨城つくば"]
     inzai_score_note: "松戸本社から国道464号経由で印西まで車40分・近隣準大手として印西営業圏に含まれる"
     official_url: "https://erfolg-ltd.co.jp/"
-    image: "/images/competitors/02_erfolg.png"
+    image: "/images/competitors/erfolg.png"
 
   - id: quality
     rank: 7
@@ -224,7 +224,7 @@ companies:
     locations: ["鎌ケ谷本社", "船橋金杉拠点"]
     inzai_score_note: "鎌ケ谷から国道16号直結で印西まで車30分・近隣業者として印西営業圏内"
     official_url: "https://qualitycoltd.com/exp/"
-    image: "/images/competitors/05_quality.png"
+    image: "/images/competitors/quality.png"
 
   - id: avarice
     rank: 8
@@ -242,7 +242,7 @@ companies:
     locations: ["八千代本社"]
     inzai_score_note: "八千代本社から国道16号経由で印西まで車30分・近隣業者として印西営業圏内"
     official_url: "https://avarice-group.com/"
-    image: "/images/competitors/09_avarice.png"
+    image: "/images/competitors/avarice.png"
 
 # === ペルソナ刺さりマップ ===
 personas_targeted:

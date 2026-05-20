@@ -102,7 +102,7 @@ companies:
     official_url: "https://boost-sys.vercel.app/"
     apply_url: "https://boost-sys.vercel.app/recruit"
     line_url: "https://lin.ee/VJyCO8D"
-    image: "/images/competitors/01_bst.png"
+    image: "/images/competitors/bst.png"
 
   - id: quality
     rank: 2
@@ -121,7 +121,7 @@ companies:
     kamagaya_score_note: "鎌ケ谷市本社+一般貨物許可で大幅加点・シルバー上位帯に昇格"
     official_url: "https://qualitycoltd.com/exp/"
     kamagaya_advantage: "市内本社+許認可堅実で鎌ケ谷市重み付け大幅加点"
-    image: "/images/competitors/05_quality.png"
+    image: "/images/competitors/quality.png"
 
   - id: shakeheart
     rank: 3
@@ -139,7 +139,7 @@ companies:
     locations: ["市川本社(新井)", "千葉南", "東京", "神奈川", "秋田", "福島"]
     kamagaya_score_note: "市川本社・鎌ケ谷市内拠点なしだが全国NW規模で4方面ハブの一翼"
     official_url: "https://xn--z9jz33k8u6a.jp/"
-    image: "/images/competitors/03_shakeheart.png"
+    image: "/images/competitors/shakeheart.png"
 
   - id: erfolg
     rank: 4
@@ -157,7 +157,7 @@ companies:
     locations: ["松戸本社", "市川営業所", "東京葛飾", "茨城つくば"]
     kamagaya_score_note: "松戸本社=鎌ケ谷市北隣・通勤30分以内で4方面ハブ稼働しやすい"
     official_url: "https://erfolg-ltd.co.jp/"
-    image: "/images/competitors/02_erfolg.png"
+    image: "/images/competitors/erfolg.png"
 
   - id: power_cargo
     rank: 5
@@ -175,7 +175,7 @@ companies:
     locations: ["市川本社(塩焼)", "大阪堺"]
     kamagaya_score_note: "市川本社・鎌ケ谷市内拠点なし・木下街道経由で稼働可"
     official_url: "https://power-cargo.jp/"
-    image: "/images/competitors/06_power-cargo.png"
+    image: "/images/competitors/power-cargo.png"
 
   - id: zeal
     rank: 6
@@ -193,7 +193,7 @@ companies:
     locations: ["船橋本社"]
     kamagaya_score_note: "船橋本社・船取線アクセス・馬込沢駅エリア中心の鎌ケ谷市南部カバー"
     official_url: "https://www.zeal2019.co.jp/"
-    image: "/images/competitors/04_zeal.png"
+    image: "/images/competitors/zeal.png"
 
   - id: farst
     rank: 7
@@ -211,6 +211,7 @@ companies:
     locations: ["船橋本社", "千葉倉庫"]
     kamagaya_score_note: "船橋本社・船取線経由で鎌ケ谷市内へ越境配送"
     official_url: "http://farst-exp.com/"
+    image: "/images/competitors/firstexpress.png"
 
   - id: avarice
     rank: 8
@@ -228,6 +229,7 @@ companies:
     locations: ["八千代本社"]
     kamagaya_score_note: "八千代本社・営業圏が鎌ケ谷隣接圏外で稼働は限定的"
     official_url: "https://avarice-group.com/"
+    image: "/images/competitors/avarice.png"
 
   - id: beat
     rank: 9
@@ -245,6 +247,7 @@ companies:
     locations: ["八街本社"]
     kamagaya_score_note: "八街本社・関東広域として鎌ケ谷含む可能性あるが実態は限定的・参考枠"
     official_url: "https://beat-llc.com/"
+    image: "/images/competitors/beat.png"
 
 # === ペルソナ刺さりマップ ===
 personas_targeted:

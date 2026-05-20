@@ -100,7 +100,7 @@ companies:
     official_url: "https://boost-sys.vercel.app/"
     apply_url: "https://boost-sys.vercel.app/recruit"
     line_url: "https://lin.ee/VJyCO8D"
-    image: "/images/competitors/01_bst.png"
+    image: "/images/competitors/bst.png"
 
   - id: lien_holdings
     rank: 2
@@ -119,7 +119,7 @@ companies:
     abiko_score_note: "2025年設立の市内本社新興。法人番号6040001137451・グループにLeLien(我孫子市)あり"
     official_url: "http://lienhd0214.com/"
     abiko_advantage: "我孫子市本社所在で重み付け+10点"
-    image: "/images/competitors/lien_holdings.png"
+    image: "/images/competitors/lien-holdings.png"
 
   - id: teganuma_kyuso
     rank: 3
@@ -137,6 +137,7 @@ companies:
     locations: ["我孫子市湖北台8-18-4-301 第一今井ビル"]
     abiko_score_note: "我孫子市内最長運営33年・地域信頼性は最上位。軽貨物専業ではなく一般貨物が主軸"
     official_url: "https://helloboss.com/corp/1040001045873"
+    image: "/images/competitors/teganuma-kyuso.png"
     abiko_advantage: "我孫子市本社+老舗33年で重み付け+8点"
 
   - id: onagi_unsou
@@ -155,6 +156,7 @@ companies:
     locations: ["柏市大室1-22-5"]
     abiko_score_note: "柏市本社+我孫子/取手カバレッジ・千葉県北西部+茨城県南部の県境クロスボーダー実績"
     official_url: "https://www.onagi-unsou.com/"
+    image: "/images/competitors/onagi-unsou.png"
 
   - id: progress
     rank: 5
@@ -172,6 +174,7 @@ companies:
     locations: ["柏市増尾台2-11-28"]
     abiko_score_note: "冷凍冷蔵輸送に特化・柏HUB経由で我孫子市カバー。ネットスーパー冷凍便と親和性"
     official_url: "https://www.progress-k.co.jp/pc/"
+    image: "/images/competitors/progress.png"
 
   - id: yamanaka
     rank: 6
@@ -189,6 +192,7 @@ companies:
     locations: ["茨城県牛久市"]
     abiko_score_note: "茨城県南部本社・我孫子市は配送エリア外縁。利根川対岸の取手経由で我孫子流入"
     official_url: "https://team-yamanaka.com/"
+    image: "/images/competitors/yamanaka.png"
 
   - id: excere
     rank: 7
@@ -206,6 +210,7 @@ companies:
     locations: ["茨城県取手市"]
     abiko_score_note: "我孫子市と利根川対岸隣接の県境業者・取手案件のサブ受け皿として機能"
     official_url: "https://www.excere.jp/service"
+    image: "/images/competitors/excere.png"
 
 # === ペルソナ刺さりマップ ===
 personas_targeted:

@@ -75,7 +75,7 @@ companies:
     official_url: "https://boost-sys.vercel.app/"
     apply_url: "https://boost-sys.vercel.app/recruit"
     line_url: "https://lin.ee/VJyCO8D"
-    image: "/images/competitors/01_bst.png"
+    image: "/images/competitors/bst.png"
     profile_description: "千葉船橋エリアに5拠点(原木中山/西船橋/舞浜/浦安/新浦安)展開。累計220名超・継続率85%(半年)を公開。業務手数料10%+ロイヤリティ8.25%=計18.25%を明文化、実ドライバー支払明細PDFも公開。2025/4安全管理者選任・2026/1取適法60日対応・2024/11フリーランス新法電子サイン化を全て先行完了。"
     sub_scores:
       reward_transparency: 95
@@ -99,7 +99,7 @@ companies:
       top: "68万円"
     locations: ["松戸本社", "市川営業所"]
     official_url: "https://erfolg-ltd.co.jp/"
-    image: "/images/competitors/02_erfolg.png"
+    image: "/images/competitors/erfolg.png"
     profile_description: "千葉県松戸市本社+市川営業所体制。グループ売上17.25億円・185名・500台規模。2024年に同業K-WING(神奈川)を買収しエリア拡大、千葉-神奈川の越境配送網を構築。福利厚生にプロ野球観戦招待・社内表彰(優秀ドライバー賞)・社員旅行など独自色。"
     caveat: "控除内訳(業務手数料/ロイヤリティ)の明細開示が公式WEBに見当たらず、応募時に書面確認推奨。"
     sub_scores:
@@ -124,7 +124,7 @@ companies:
       top: "62万円"
     locations: ["市川本社", "千葉南"]
     official_url: "https://xn--z9jz33k8u6a.jp/"
-    image: "/images/competitors/03_shakeheart.png"
+    image: "/images/competitors/shakeheart.png"
     profile_description: "市川市本社+千葉南拠点。全国3,500名のドライバーネットワーク・年商11億円規模。取引先に大手3社(ヤマト運輸・日本郵便・佐川急便)を持ち、案件供給の安定性が強み。日給22,000円保証コースを明示募集、未経験者の初動稼ぎを担保するパッケージ提供。"
     caveat: "額面月収は高い一方、Indeed口コミ(N=12件・2025年集計)に「控除後手取りは他社並み」の指摘あり。応募時は控除前後の手取りを必ず書面確認すること。"
     sub_scores:
@@ -149,7 +149,7 @@ companies:
       top: "70万円"
     locations: ["船橋本社"]
     official_url: "https://www.zeal2019.co.jp/"
-    image: "/images/competitors/04_zeal.png"
+    image: "/images/competitors/zeal.png"
     profile_description: "船橋本社の専属型業者(設立2019年)。社名どおり「気概(zeal)」を打ち出す若い組織。月65-70万円コースを募集ページで明示、未経験者でも初月から燃料費全額支給で初動安心。専属型運用のため、特定荷主への深いコミット型ドライバーに向く運営スタイル。"
     caveat: "設立2019年と若く、組織カルチャー形成中の段階。公式WEBに本社詳細住所・運送業届出番号・代表者氏名の明示が乏しく、長期勤務希望者は面談で確認推奨。"
     sub_scores:
@@ -174,7 +174,7 @@ companies:
       top: "60万円"
     locations: ["鎌ケ谷本社", "船橋金杉拠点"]
     official_url: "https://qualitycoltd.com/exp/"
-    image: "/images/competitors/05_quality.png"
+    image: "/images/competitors/quality.png"
     profile_description: "鎌ケ谷本社+船橋金杉拠点の2拠点運営、軽貨物に加え一般貨物自動車運送事業許可(関自貨第1002号)も保有。軽貨物単体業者にはできない案件枠もカバー。専用車両支給+車両保険を会社負担、ドライバー側の初期投資を最小化する設計。"
     caveat: "公式WEBにドライバー在籍数・控除内訳の明示なし。一般貨物許可が「強み」である分、軽貨物専業との運用差(拘束時間など)を面談で確認推奨。"
     sub_scores:

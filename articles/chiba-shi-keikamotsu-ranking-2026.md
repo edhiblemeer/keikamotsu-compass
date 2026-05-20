@@ -111,7 +111,7 @@ companies:
     official_url: "https://boost-sys.vercel.app/"
     apply_url: "https://boost-sys.vercel.app/recruit"
     line_url: "https://lin.ee/VJyCO8D"
-    image: "/images/competitors/01_boost.png"
+    image: "/images/competitors/bst.png"
 
   - id: shakeheart
     rank: 2
@@ -129,7 +129,7 @@ companies:
     locations: ["市川本社", "千葉南営業所", "東京", "神奈川", "秋田", "福島"]
     chiba_shi_score_note: "千葉南営業所で中央区・美浜区・稲毛区をカバー。大手取引先案件の安定供給力は9社中トップクラスだが、控除内訳の透明性に課題"
     official_url: "https://xn--z9jz33k8u6a.jp/"
-    image: "/images/competitors/02_shakeheart.png"
+    image: "/images/competitors/shakeheart.png"
 
   - id: lings
     rank: 3
@@ -147,7 +147,7 @@ companies:
     locations: ["千葉市稲毛区本社"]
     chiba_shi_score_note: "稲毛区本社で千葉駅・幕張・美浜区へアクセス良好。令和の虎出演・SNS活用で認知度上昇中。完全出来高制ゆえ稼ぎ手は強いが初動期の保証は弱め"
     official_url: "https://lings.co.jp/"
-    image: "/images/competitors/03_lings.png"
+    image: "/images/competitors/lings.png"
 
   - id: logiquest
     rank: 4
@@ -165,7 +165,7 @@ companies:
     locations: ["千葉市中央区登戸1-10-11 華林ビル101号", "稲毛区営業所"]
     chiba_shi_score_note: "中央区本千葉駅近接の千葉支店+稲毛区営業所で千葉市中心部をフルカバー。BtoB案件の質と量は9社中トップクラスだが、配送手段に軽四輪・バイク・自転車・ハンドキャリーが混在し軽貨物専業希望者には合わない場合あり"
     official_url: "https://logiquest.co.jp/"
-    image: "/images/competitors/04_logiquest.png"
+    image: "/images/competitors/logiquest.png"
 
   - id: jetline
     rank: 5
@@ -183,7 +183,7 @@ companies:
     locations: ["千葉市拠点", "市川", "船橋", "習志野", "八千代", "浦安", "大田区", "横浜", "川崎"]
     chiba_shi_score_note: "千葉拠点+広域カバレッジでスポット便・当日便比率が高い。固定ルートで安定収入を狙う層には不向きだが、スポット併用で稼ぐ層には選択肢"
     official_url: "https://jetline-delivery.com/"
-    image: "/images/competitors/05_jetline.png"
+    image: "/images/competitors/jetline.png"
 
   - id: kwing
     rank: 6
@@ -201,7 +201,7 @@ companies:
     locations: ["千葉県拠点", "茨城県拠点"]
     chiba_shi_score_note: "緊急便・スポット便に強みあるが、固定案件・大手取引の比率は中位。エアフォルクグループ入りで2026年以降の体制整備に期待"
     official_url: "https://k-wing-delivery.com/"
-    image: "/images/competitors/06_kwing.png"
+    image: "/images/competitors/kwing.png"
 
   - id: wago
     rank: 7
@@ -219,7 +219,7 @@ companies:
     locations: ["市原市八幡(本社)", "千葉市中央区(事務所)"]
     chiba_shi_score_note: "千葉市中央区〜市原までの京葉工業地帯BtoB便に強い。EC・大手宅配の比率は低く、ルート配送中心。BtoB安定派向け"
     official_url: "https://recruit.wago-bs.co.jp/"
-    image: "/images/competitors/07_wago.png"
+    image: "/images/competitors/wago.png"
 
   - id: kanehiro
     rank: 8
@@ -237,7 +237,7 @@ companies:
     locations: ["千葉市花見川区犢橋町"]
     chiba_shi_score_note: "ヤマト運輸千葉主管支店徒歩圏で大手宅配ベース下請案件にアクセスしやすい立地優位。花見川区在住者には通勤面で最有力候補だが、規模感は小さい"
     official_url: "https://kanehiro-chiba.jp/"
-    image: "/images/competitors/08_kanehiro.png"
+    image: "/images/competitors/kanehiro.png"
 
   - id: actybrain
     rank: 9
@@ -255,7 +255,7 @@ companies:
     locations: ["千葉市中央区(本社)", "東京", "仙台", "大阪", "大連"]
     chiba_shi_score_note: "千葉市中央区本社の老舗だが、軽貨物単独ではなくBPO・発送代行複合事業の一部。軽貨物専業ドライバーよりは「物流×事務×BPO複合キャリア」を狙う層向け"
     official_url: "http://www.acty-b.com/"
-    image: "/images/competitors/09_actybrain.png"
+    image: "/images/competitors/actybrain.png"
 
 # === ペルソナ刺さりマップ ===
 personas_targeted:

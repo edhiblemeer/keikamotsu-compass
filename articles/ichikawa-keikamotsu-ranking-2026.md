@@ -103,7 +103,7 @@ companies:
     official_url: "https://boost-sys.vercel.app/"
     apply_url: "https://boost-sys.vercel.app/recruit"
     line_url: "https://lin.ee/VJyCO8D"
-    image: "/images/competitors/01_bst.png"
+    image: "/images/competitors/bst.png"
 
   - id: shakeheart
     rank: 2
@@ -122,7 +122,7 @@ companies:
     ichikawa_score_note: "市川本社で行徳・南行徳エリアの案件依存度が高く、地元密着型としてはエリア最大規模"
     official_url: "https://xn--z9jz33k8u6a.jp/"
     ichikawa_advantage: "本社所在ゆえ市川市重み付けで+8点(船橋版60→市川版68)"
-    image: "/images/competitors/03_shakeheart.png"
+    image: "/images/competitors/shakeheart.png"
 
   - id: power_cargo
     rank: 3
@@ -141,7 +141,7 @@ companies:
     ichikawa_score_note: "市川市塩焼=湾岸道路アクセス抜群、行徳・浦安・葛西方面案件に強い"
     official_url: "https://power-cargo.jp/"
     ichikawa_advantage: "本社所在ゆえ市川市重み付けで+16点(船橋版36→市川版52)"
-    image: "/images/competitors/06_power-cargo.png"
+    image: "/images/competitors/power-cargo.png"
 
   - id: erfolg
     rank: 4
@@ -159,7 +159,7 @@ companies:
     locations: ["松戸本社", "市川営業所", "東京葛飾", "茨城つくば"]
     ichikawa_score_note: "市川営業所はあるが本社は松戸。市川市内案件のシェアはシェイクハートほど高くない"
     official_url: "https://erfolg-ltd.co.jp/"
-    image: "/images/competitors/02_erfolg.png"
+    image: "/images/competitors/erfolg.png"
 
   - id: zeal
     rank: 5
@@ -177,7 +177,7 @@ companies:
     locations: ["船橋本社"]
     ichikawa_score_note: "船橋本社で市川市内案件は限定的(船橋・市川境界の原木・本中山エリア中心)"
     official_url: "https://www.zeal2019.co.jp/"
-    image: "/images/competitors/04_zeal.png"
+    image: "/images/competitors/zeal.png"
 
   - id: quality
     rank: 6
@@ -195,7 +195,7 @@ companies:
     locations: ["鎌ケ谷本社", "船橋金杉拠点"]
     ichikawa_score_note: "鎌ケ谷本社で市川市内案件は限定的、武蔵野線沿線(市川大野)アクセスは可"
     official_url: "https://qualitycoltd.com/exp/"
-    image: "/images/competitors/05_quality.png"
+    image: "/images/competitors/quality.png"
 
   - id: farst
     rank: 7
@@ -213,6 +213,7 @@ companies:
     locations: ["船橋本社", "千葉倉庫"]
     ichikawa_score_note: "市川市内拠点なし、船橋・千葉市拠点からの越境配送"
     official_url: "http://farst-exp.com/"
+    image: "/images/competitors/firstexpress.png"
 
   - id: avarice
     rank: 8
@@ -230,6 +231,7 @@ companies:
     locations: ["八千代本社"]
     ichikawa_score_note: "市川市内拠点なし、エリア外業者"
     official_url: "https://avarice-group.com/"
+    image: "/images/competitors/avarice.png"
 
   - id: beat
     rank: 9
@@ -247,6 +249,7 @@ companies:
     locations: ["八街本社"]
     ichikawa_score_note: "市川市内拠点なし、参考枠"
     official_url: "https://beat-llc.com/"
+    image: "/images/competitors/beat.png"
 
 # === ペルソナ刺さりマップ ===
 personas_targeted:

@@ -103,7 +103,7 @@ companies:
     official_url: "https://boost-sys.vercel.app/"
     apply_url: "https://boost-sys.vercel.app/recruit"
     line_url: "https://lin.ee/VJyCO8D"
-    image: "/images/competitors/01_bst.png"
+    image: "/images/competitors/bst.png"
 
   - id: avarice
     rank: 2
@@ -122,7 +122,7 @@ companies:
     yachiyo_score_note: "八千代市本社のため『地元密着軸』では BST を超える首位。大和田新田は東葉線八千代緑が丘駅・国道16号沿線の好立地"
     official_url: "https://avarice-group.com/"
     yachiyo_advantage: "八千代市本社+地域CSR(YACHIYO FLAGsスポンサー)で地元密着軸首位"
-    image: "/images/competitors/02_avarice.png"
+    image: "/images/competitors/avarice.png"
 
   - id: shakeheart
     rank: 3
@@ -140,7 +140,7 @@ companies:
     locations: ["市川本社(新井)", "千葉南", "東京", "神奈川", "秋田", "福島"]
     yachiyo_score_note: "市川本社だが八千代エリア専用求人を継続展開・月収35万円以上を明示。ヤマト下請実績で八千代5営業所案件に強み"
     official_url: "https://xn--z9jz33k8u6a.jp/"
-    image: "/images/competitors/03_shakeheart.png"
+    image: "/images/competitors/shakeheart.png"
 
   - id: k5
     rank: 4
@@ -158,7 +158,7 @@ companies:
     locations: ["船橋本拠(日の出)"]
     yachiyo_score_note: "八千代を明示エリアとして含む船橋圏業者。23区優先で千葉県内案件もカバー、八千代の駅勢圏配送可"
     official_url: "https://k-5global.co.jp/"
-    image: "/images/competitors/04_k5.png"
+    image: "/images/competitors/k5.png"
 
   - id: erfolg
     rank: 5
@@ -176,7 +176,7 @@ companies:
     locations: ["松戸本社", "市川営業所", "東京葛飾", "茨城つくば"]
     yachiyo_score_note: "千葉県北西部広域として八千代対応可だが、八千代市内拠点はなし。規模感は8社中最大級"
     official_url: "https://erfolg-ltd.co.jp/"
-    image: "/images/competitors/05_erfolg.png"
+    image: "/images/competitors/erfolg.png"
 
   - id: zeal
     rank: 6
@@ -194,7 +194,7 @@ companies:
     locations: ["船橋本社"]
     yachiyo_score_note: "船橋本社で八千代市内案件は周辺カバーレベル。月収コース明示は強みだが八千代特化度は限定的"
     official_url: "https://www.zeal2019.co.jp/"
-    image: "/images/competitors/06_zeal.png"
+    image: "/images/competitors/zeal.png"
 
   - id: quality
     rank: 7
@@ -212,7 +212,7 @@ companies:
     locations: ["鎌ケ谷本社", "船橋金杉拠点"]
     yachiyo_score_note: "鎌ケ谷本社で八千代北部(船橋・鎌ケ谷経由)はカバー可。一般貨物許可保有で許認可基盤は堅実"
     official_url: "https://qualitycoltd.com/exp/"
-    image: "/images/competitors/07_quality.png"
+    image: "/images/competitors/quality.png"
 
   - id: yachiyo_unsou
     rank: 8
@@ -230,7 +230,7 @@ companies:
     locations: ["八千代本社(大和田)"]
     yachiyo_score_note: "八千代市内最古参の地場老舗だが、主業は一般貨物(大型・1t車)で純粋な軽貨物専業ではない。軽車両も保有"
     official_url: "https://yachiyo-exp.co.jp/"
-    image: "/images/competitors/08_yachiyo-unsou.png"
+    image: "/images/competitors/yachiyo-unsou.png"
 
 # === ペルソナ刺さりマップ ===
 personas_targeted:
