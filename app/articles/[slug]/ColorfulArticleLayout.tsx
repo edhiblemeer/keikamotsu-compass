@@ -1,7 +1,8 @@
 import Link from "next/link";
-import type { Article, HeroBadge } from "@/lib/articles";
+import { getAllArticleSummaries, type Article, type HeroBadge } from "@/lib/articles";
 import { HeroSection } from "@/components/article/HeroSection";
 import { QuickRankingCards } from "@/components/article/QuickRankingCards";
+import { RelatedArticles } from "@/components/article/RelatedArticles";
 import {
   Breadcrumbs,
   buildBreadcrumbSchema,
@@ -101,6 +102,11 @@ export function ColorfulArticleLayout({
       <div
         className="prose mt-10"
         dangerouslySetInnerHTML={{ __html: contentHtml }}
+      />
+
+      <RelatedArticles
+        articles={getAllArticleSummaries()}
+        currentSlug={article.slug}
       />
 
       <footer className="mt-16 border-t border-[hsl(var(--border))] pt-6 text-sm text-[hsl(var(--muted-foreground))]">
