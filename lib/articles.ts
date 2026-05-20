@@ -455,8 +455,9 @@ export async function getArticleBySlug(slug: string): Promise<Article | null> {
  * LLM最適化 C (FAQPage schema) の source。
  *
  * 対応 pattern:
- *   - `## ❓ XXX FAQ` / `## XXX FAQ` / `## よくある質問` / `## Q&A`
- *   - section 内 `### Q1. 〜?` / `### 〜?` / `### 質問` ヘディング + 直後 paragraph (A. プレフィックス除去)
+ *   - 開始 heading: `## ❓ XXX FAQ` / `## XXX FAQ` / `## よくある質問` / `## Q&A`
+ *   - QA形式 A: `<details><summary>Q1. 〜</summary>...本文...</details>` (経営側 marketing-planner 成果物標準)
+ *   - QA形式 B: `### Q1. 〜?` / `### 〜?` ヘディング + 直後 paragraph (A. プレフィックス除去)
  */
 export function parseFaqs(content: string): FaqItem[] {
   // FAQ section 開始位置の find
@@ -470,6 +471,35 @@ export function parseFaqs(content: string): FaqItem[] {
   const faqSection = nextH2 >= 0 ? rest.slice(0, nextH2) : rest;
 
   const faqs: FaqItem[] = [];
+  const seen = new Set<string>();
+
+  const normalizeQ = (raw: string): string => {
+    let q = raw.replace(/^Q\d+[.:：]\s*/i, "").trim();
+    if (!/[??]\s*$/.test(q)) q += "?";
+    return q;
+  };
+
+  const normalizeA = (raw: string): string => {
+    return raw
+      .replace(/^A[.:：]\s*/i, "")
+      .replace(/\s+/g, " ")
+      .trim();
+  };
+
+  // Pattern A: <details><summary>Q. 〜</summary>...</details> (経営側標準)
+  const detailsRe =
+    /<details>\s*<summary>\s*([\s\S]+?)\s*<\/summary>\s*([\s\S]*?)\s*<\/details>/gi;
+  let m: RegExpExecArray | null;
+  while ((m = detailsRe.exec(faqSection)) !== null) {
+    const q = normalizeQ(m[1]);
+    const a = normalizeA(m[2]);
+    if (q.length > 3 && a.length >= 10 && !seen.has(q)) {
+      seen.add(q);
+      faqs.push({ question: q, answer: a });
+    }
+  }
+
+  // Pattern B: ### Q1. 〜 / ### 〜? markdown heading 形式
   const lines = faqSection.split("\n");
   let currentQ = "";
   const currentA: string[] = [];
@@ -477,40 +507,30 @@ export function parseFaqs(content: string): FaqItem[] {
   const flush = (): void => {
     if (currentQ && currentA.length > 0) {
       const answer = currentA.join(" ").replace(/\s+/g, " ").trim();
-      if (answer.length >= 10) {
+      if (answer.length >= 10 && !seen.has(currentQ)) {
+        seen.add(currentQ);
         faqs.push({ question: currentQ, answer });
       }
     }
   };
 
   for (const line of lines) {
-    // ### 〜 ヘディング = 新質問
     const h3 = line.match(/^###\s+(.+?)\s*$/);
     if (h3) {
       flush();
-      // Q1. / Q1: / Q1： プレフィックス除去
-      let q = h3[1].replace(/^Q\d+[.:：]\s*/i, "").trim();
-      // 末尾に ? が無ければ追加 (日本語/英文両対応)
-      if (!/[??]\s*$/.test(q)) q += "?";
-      currentQ = q;
+      currentQ = normalizeQ(h3[1]);
       currentA.length = 0;
       continue;
     }
     if (!currentQ) continue;
-
-    // section 終了 (---) or H2
-    if (/^##\s/.test(line) || /^---\s*$/.test(line)) {
-      break;
-    }
-
-    // 回答 paragraph (A. / A: / A： プレフィックス除去・markdown装飾は維持)
+    if (/^##\s/.test(line) || /^---\s*$/.test(line)) break;
     const stripped = line.replace(/^A[.:：]\s*/i, "").trim();
-    if (stripped) {
+    if (stripped && !stripped.startsWith("<")) {
       currentA.push(stripped);
     }
   }
-
   flush();
+
   return faqs;
 }
 
