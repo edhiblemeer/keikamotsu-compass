@@ -5,7 +5,9 @@
   "description": "軽貨物コンパス — 千葉船橋エリア軽貨物業者比較ランキングメディア (運営: 株式会社EST FORT)",
   "scripts": {
     "dev": "next dev --webpack",
+    "prebuild": "tsx -r dotenv/config scripts/generate-indexnow-key.ts",
     "build": "next build",
+    "postbuild": "tsx -r dotenv/config scripts/indexnow-submit.ts",
     "start": "next start"
   },
   "dependencies": {
@@ -22,7 +24,9 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "dotenv": "^16.6.1",
     "tailwindcss": "^4",
+    "tsx": "^4.22.3",
     "typescript": "^5"
   }
 }

@@ -20,9 +20,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Local env files
-.env*.local
-.env.local
+# Local env files (.env も含めて環境変数は一切リポ commit しない)
+.env
+.env.*
+!.env.example
 
 # Vercel
 .vercel
@@ -30,5 +31,9 @@ yarn-error.log*
 # TypeScript
 *.tsbuildinfo
 next-env.d.ts
+
+# IndexNow key file (32文字hex.txt は build時 prebuild で再生成)
+/public/*.txt
+!/public/robots.txt
 
 .vercel
