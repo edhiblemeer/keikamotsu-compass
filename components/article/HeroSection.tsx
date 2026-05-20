@@ -40,57 +40,57 @@ export function HeroSection({
   return (
     <section aria-labelledby="article-hero-title" className="mb-8 md:mb-10">
       {heroSrc ? (
-        <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-amber-100 to-orange-200 shadow-md">
+        <div className="relative min-h-[480px] w-full overflow-hidden rounded-2xl bg-gradient-to-br from-amber-100 to-orange-200 shadow-md sm:min-h-[520px] md:min-h-0 md:aspect-[16/9]">
+          {/* image は背景としてfill (mobile では縦長 container を覆う、 PC では aspect-ratio 16:9) */}
           <Image
             src={heroSrc}
             alt={hero.alt || "記事のメイン画像"}
-            width={1200}
-            height={675}
+            fill
             sizes="(max-width: 768px) 100vw, 1200px"
             priority
-            className="h-auto w-full object-cover"
+            className="object-cover"
           />
           {/* dark gradient overlay (テキスト可読性確保) */}
           <div
             aria-hidden="true"
-            className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-black/20"
+            className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/85 via-black/55 to-black/25"
           />
-          {/* overlay content */}
-          <div className="absolute inset-0 flex flex-col justify-end p-4 text-white md:p-8 lg:p-10">
+          {/* overlay content - mobile はviewport縦に余裕 / 折り返し許容 + break-words */}
+          <div className="absolute inset-0 flex flex-col justify-end gap-2.5 px-4 py-5 text-white sm:gap-3 sm:px-5 sm:py-6 md:gap-3 md:p-8 lg:p-10">
             {area && (
-              <p className="mb-1.5 text-[10px] font-semibold uppercase tracking-widest text-amber-200 drop-shadow-md md:mb-2 md:text-xs">
+              <p className="text-[10px] font-semibold uppercase tracking-widest text-amber-200 drop-shadow-md md:text-xs">
                 {area}
               </p>
             )}
             <h1
               id="article-hero-title"
-              className="font-extrabold text-xl leading-tight tracking-tight text-white drop-shadow-lg md:text-3xl lg:text-4xl"
+              className="font-extrabold text-base leading-snug tracking-tight text-white drop-shadow-lg break-words [overflow-wrap:anywhere] sm:text-lg sm:leading-snug md:text-3xl md:leading-tight lg:text-4xl"
             >
               {title}
             </h1>
             {subtitle && (
-              <p className="mt-1.5 text-xs font-semibold text-amber-100 drop-shadow-md md:mt-2 md:text-base">
+              <p className="text-[11px] font-semibold text-amber-100 drop-shadow-md break-words [overflow-wrap:anywhere] sm:text-xs md:text-base">
                 {subtitle}
               </p>
             )}
             {badges.length > 0 && (
-              <div className="mt-3 grid grid-cols-3 gap-1.5 md:mt-4 md:gap-2">
+              <div className="grid grid-cols-3 gap-1.5 md:gap-2">
                 {badges.map((b) => (
                   <div
                     key={`${b.label}-${b.value}`}
-                    className="rounded-md bg-white/90 px-1.5 py-1.5 text-center text-[hsl(var(--foreground))] backdrop-blur-sm md:px-2 md:py-2"
+                    className="rounded-md bg-white/90 px-1 py-1.5 text-center text-[hsl(var(--foreground))] backdrop-blur-sm md:px-2 md:py-2"
                   >
                     <div className="text-[9px] font-medium leading-tight text-[hsl(var(--muted-foreground))] md:text-xs">
                       <span aria-hidden="true">{b.emoji}</span> {b.label}
                     </div>
-                    <div className="font-extrabold text-xs leading-tight tabular-nums md:text-base">
+                    <div className="font-extrabold text-[11px] leading-tight tabular-nums sm:text-xs md:text-base">
                       {b.value}
                     </div>
                   </div>
                 ))}
               </div>
             )}
-            <div className="mt-3 flex flex-col gap-1.5 sm:flex-row md:mt-4 md:gap-2">
+            <div className="flex flex-col gap-1.5 sm:flex-row md:gap-2">
               <CTAButton
                 href={primaryCtaHref}
                 variant="gold"
