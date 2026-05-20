@@ -41,14 +41,26 @@ export async function generateMetadata({
   return {
     title: article.frontmatter.title,
     description: article.frontmatter.description,
-    alternates: { canonical: `/articles/${slug}` },
+    keywords: article.frontmatter.tags,
+    alternates: {
+      canonical: `/articles/${slug}`,
+      languages: {
+        "ja-JP": `/articles/${slug}`,
+        "x-default": `/articles/${slug}`,
+      },
+    },
     openGraph: {
       title: article.frontmatter.title,
       description: article.frontmatter.description,
       url: `/articles/${slug}`,
       type: "article",
+      locale: "ja_JP",
+      siteName: "軽貨物コンパス",
       publishedTime: article.frontmatter.publishedAt,
       modifiedTime: article.frontmatter.updatedAt,
+      authors: ["株式会社EST FORT"],
+      section: "千葉県エリア比較ランキング",
+      tags: article.frontmatter.tags,
       images: ogImageAbs
         ? [
             {
@@ -84,7 +96,8 @@ export default async function ArticlePage({
       : `${SITE_URL}${frontmatter.ogImage}`
     : undefined;
 
-  // 構造化データ (Article)
+  // 構造化データ (Article) - Google公式推奨 fields 完備
+  const canonicalUrl = `${SITE_URL}/articles/${slug}`;
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -92,15 +105,27 @@ export default async function ArticlePage({
     description: frontmatter.description,
     datePublished: frontmatter.publishedAt,
     dateModified: frontmatter.updatedAt ?? frontmatter.publishedAt,
+    inLanguage: "ja-JP",
+    articleSection: "千葉県エリア比較ランキング",
+    ...(frontmatter.tags && frontmatter.tags.length > 0 && {
+      keywords: frontmatter.tags.join(", "),
+    }),
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": canonicalUrl,
+    },
     ...(ogImageAbs && { image: ogImageAbs }),
     author: {
       "@type": "Organization",
+      "@id": `${SITE_URL}/#organization`,
       name: "株式会社EST FORT",
-      url: "https://keikamotsu-compass.vercel.app/about",
+      url: `${SITE_URL}/about`,
     },
     publisher: {
       "@type": "Organization",
+      "@id": `${SITE_URL}/#organization`,
       name: "株式会社EST FORT",
+      url: `${SITE_URL}/about`,
     },
   };
 

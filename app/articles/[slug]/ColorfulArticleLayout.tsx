@@ -2,6 +2,14 @@ import Link from "next/link";
 import type { Article, HeroBadge } from "@/lib/articles";
 import { HeroSection } from "@/components/article/HeroSection";
 import { QuickRankingCards } from "@/components/article/QuickRankingCards";
+import {
+  Breadcrumbs,
+  buildBreadcrumbSchema,
+  type BreadcrumbItem,
+} from "@/components/article/Breadcrumbs";
+
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://keikamotsu-compass.vercel.app";
 
 interface ColorfulArticleLayoutProps {
   article: Article;
@@ -36,12 +44,27 @@ export function ColorfulArticleLayout({
     "公開情報のみで採点・No.1表示は当メディア独自スコアに基づく(2026年5月時点)・6ヶ月ごと更新",
   ];
 
+  // パンくず構築 (Google BreadcrumbList 準拠)
+  // 全 v2 colorful 記事は千葉県細分化シリーズ前提 → 中間に「千葉県」 ノード (hub URL は 8エリア揃ったタイミングで /areas/chiba を有効化、 現状 href なし表示)
+  const breadcrumbItems: BreadcrumbItem[] = [
+    { name: "軽貨物コンパス", href: "/" },
+    { name: "千葉県" },
+    { name: frontmatter.area ?? frontmatter.title },
+  ];
+  const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbItems, SITE_URL);
+
   return (
     <article className="mx-auto max-w-3xl px-4 py-8 md:px-6 md:py-12">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+
+      <Breadcrumbs items={breadcrumbItems} />
 
       {hero ? (
         <HeroSection
