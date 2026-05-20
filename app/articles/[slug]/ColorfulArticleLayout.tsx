@@ -46,13 +46,43 @@ export function ColorfulArticleLayout({
   ];
 
   // パンくず構築 (Google BreadcrumbList 準拠)
-  // 全 v2 colorful 記事は千葉県細分化シリーズ前提 → 中間に「千葉県」 ノード (hub URL は 8エリア揃ったタイミングで /areas/chiba を有効化、 現状 href なし表示)
+  // 千葉県hub 有効化 (8エリア達成) → href: /areas/chiba 設定
   const breadcrumbItems: BreadcrumbItem[] = [
     { name: "軽貨物コンパス", href: "/" },
-    { name: "千葉県" },
+    { name: "千葉県", href: "/areas/chiba" },
     { name: frontmatter.area ?? frontmatter.title },
   ];
   const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbItems, SITE_URL);
+
+  // ItemList schema (LLM最適化 D・companies array → ranking として LLM 参照しやすく)
+  const itemListSchema = companies.length > 0
+    ? {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        name: `${frontmatter.area ?? "千葉県エリア"} 軽貨物業者ランキング`,
+        description: frontmatter.description,
+        numberOfItems: companies.length,
+        itemListOrder: "https://schema.org/ItemListOrderAscending",
+        itemListElement: companies.map((c) => ({
+          "@type": "ListItem",
+          position: c.rank,
+          item: {
+            "@type": "Organization",
+            name: c.name,
+            url: c.official_url,
+            ...(c.image && { image: `${SITE_URL}${c.image}` }),
+            aggregateRating: {
+              "@type": "AggregateRating",
+              ratingValue: c.score,
+              bestRating: 100,
+              worstRating: 0,
+              ratingCount: 1,
+              reviewCount: 1,
+            },
+          },
+        })),
+      }
+    : null;
 
   return (
     <article className="mx-auto max-w-3xl px-4 py-8 md:px-6 md:py-12">
@@ -64,6 +94,12 @@ export function ColorfulArticleLayout({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
+      {itemListSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+        />
+      )}
 
       <Breadcrumbs items={breadcrumbItems} />
 

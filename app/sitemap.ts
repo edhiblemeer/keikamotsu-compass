@@ -10,6 +10,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/`, lastModified: now, changeFrequency: "weekly", priority: 1.0 },
     { url: `${BASE}/about`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE}/areas/chiba`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${BASE}/llms.txt`, lastModified: now, changeFrequency: "weekly", priority: 0.4 },
+    { url: `${BASE}/llms-full.txt`, lastModified: now, changeFrequency: "weekly", priority: 0.4 },
   ];
 
   const articleRoutes: MetadataRoute.Sitemap = getAllArticleSlugs().map((slug) => ({
