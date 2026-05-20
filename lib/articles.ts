@@ -535,5 +535,6 @@ export async function getDetailArticleBySlug(
     slug,
     frontmatter: normalizeFrontmatter(data as RawFrontmatter),
     contentHtml: await processMarkdown(content),
+    faqs: parseFaqs(content),
   };
 }
