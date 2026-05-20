@@ -120,8 +120,14 @@ export interface ArticleSummary {
   frontmatter: ArticleFrontmatter;
 }
 
+export interface FaqItem {
+  question: string;
+  answer: string;
+}
+
 export interface Article extends ArticleSummary {
   contentHtml: string;
+  faqs: FaqItem[];
 }
 
 type RawFrontmatter = Record<string, unknown>;
@@ -440,7 +446,72 @@ export async function getArticleBySlug(slug: string): Promise<Article | null> {
     slug,
     frontmatter,
     contentHtml: await processMarkdown(processedContent),
+    faqs: parseFaqs(processedContent),
   };
+}
+
+/**
+ * markdown content から FAQ section を抽出して FaqItem[] を返す。
+ * LLM最適化 C (FAQPage schema) の source。
+ *
+ * 対応 pattern:
+ *   - `## ❓ XXX FAQ` / `## XXX FAQ` / `## よくある質問` / `## Q&A`
+ *   - section 内 `### Q1. 〜?` / `### 〜?` / `### 質問` ヘディング + 直後 paragraph (A. プレフィックス除去)
+ */
+export function parseFaqs(content: string): FaqItem[] {
+  // FAQ section 開始位置の find
+  const headingRe = /^##\s+.*(?:FAQ|よくある質問|Q&A|質問)/im;
+  const startMatch = content.match(headingRe);
+  if (!startMatch || startMatch.index === undefined) return [];
+
+  // 開始位置から次の H2 ('## ') までを section とする
+  const rest = content.slice(startMatch.index + startMatch[0].length);
+  const nextH2 = rest.search(/\n##\s/);
+  const faqSection = nextH2 >= 0 ? rest.slice(0, nextH2) : rest;
+
+  const faqs: FaqItem[] = [];
+  const lines = faqSection.split("\n");
+  let currentQ = "";
+  const currentA: string[] = [];
+
+  const flush = (): void => {
+    if (currentQ && currentA.length > 0) {
+      const answer = currentA.join(" ").replace(/\s+/g, " ").trim();
+      if (answer.length >= 10) {
+        faqs.push({ question: currentQ, answer });
+      }
+    }
+  };
+
+  for (const line of lines) {
+    // ### 〜 ヘディング = 新質問
+    const h3 = line.match(/^###\s+(.+?)\s*$/);
+    if (h3) {
+      flush();
+      // Q1. / Q1: / Q1： プレフィックス除去
+      let q = h3[1].replace(/^Q\d+[.:：]\s*/i, "").trim();
+      // 末尾に ? が無ければ追加 (日本語/英文両対応)
+      if (!/[??]\s*$/.test(q)) q += "?";
+      currentQ = q;
+      currentA.length = 0;
+      continue;
+    }
+    if (!currentQ) continue;
+
+    // section 終了 (---) or H2
+    if (/^##\s/.test(line) || /^---\s*$/.test(line)) {
+      break;
+    }
+
+    // 回答 paragraph (A. / A: / A： プレフィックス除去・markdown装飾は維持)
+    const stripped = line.replace(/^A[.:：]\s*/i, "").trim();
+    if (stripped) {
+      currentA.push(stripped);
+    }
+  }
+
+  flush();
+  return faqs;
 }
 
 export function getAllDetailSlugs(): string[] {

@@ -44,10 +44,24 @@ export async function generateMetadata({
       : `${SITE_URL}${ogImageRel}`
     : undefined;
 
+  // LLM最適化 G - citation_* meta tags (学術引用形式)
+  const citationOther: Record<string, string> = {
+    citation_title: article.frontmatter.title,
+    citation_author: "株式会社EST FORT",
+    citation_publication_date: article.frontmatter.publishedAt,
+    citation_publisher: "軽貨物コンパス (株式会社EST FORT)",
+    citation_journal_title: "軽貨物コンパス",
+    citation_online_date:
+      article.frontmatter.updatedAt ?? article.frontmatter.publishedAt,
+    citation_fulltext_world_readable: "",
+  };
+  if (ogImageAbs) citationOther.citation_image = ogImageAbs;
+
   return {
     title: article.frontmatter.title,
     description: article.frontmatter.description,
     keywords: article.frontmatter.tags,
+    other: citationOther,
     alternates: {
       canonical: `/articles/${slug}`,
       languages: {

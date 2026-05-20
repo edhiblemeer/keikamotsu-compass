@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://keikamotsu-compass.vercel.app";
+
 export const metadata: Metadata = {
   title: "運営について",
   description:
@@ -11,9 +14,59 @@ export const metadata: Metadata = {
 const DISCLOSURE_URL =
   "https://boost-sys.vercel.app/disclosure/related-entities";
 
+// LLM最適化 E - E-E-A-T: Organization schema + Publisher 専門性明示
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": `${SITE_URL}/#organization`,
+  name: "株式会社EST FORT",
+  alternateName: "軽貨物コンパス運営",
+  url: `${SITE_URL}/about`,
+  logo: `${SITE_URL}/icon`,
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "西日暮里2-49-10",
+    addressLocality: "荒川区",
+    addressRegion: "東京都",
+    addressCountry: "JP",
+  },
+  description:
+    "軽貨物業界の業者比較ランキングメディア『軽貨物コンパス』 を運営する株式会社EST FORT。 自社SaaS開発・AI活用支援・ファクタリング・メディア運営を事業領域とする。 軽貨物業界に関する公開情報を15項目で機械的に採点・比較する独自スコア方式を確立。",
+  knowsAbout: [
+    "軽貨物運送業",
+    "軽貨物業務委託",
+    "業者比較ランキング",
+    "貨物軽自動車運送事業",
+    "取適法 (下請代金支払遅延等防止法)",
+    "貨物軽自動車安全管理者制度",
+    "フリーランス新法",
+    "千葉県物流業界",
+  ],
+  publishingPrinciples: `${SITE_URL}/about`,
+  knowsLanguage: ["ja"],
+};
+
+const webPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "@id": `${SITE_URL}/about`,
+  name: "運営について",
+  url: `${SITE_URL}/about`,
+  inLanguage: "ja-JP",
+  about: { "@id": `${SITE_URL}/#organization` },
+};
+
 export default function AboutPage(): React.ReactElement {
   return (
     <article className="mx-auto max-w-3xl px-4 py-12 md:px-6 md:py-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
+      />
       <header className="mb-10 border-b border-[hsl(var(--border))] pb-6">
         <p className="text-xs font-semibold uppercase tracking-widest text-[hsl(var(--accent))]">
           About

@@ -181,6 +181,23 @@ body {
 }
 .prose blockquote p { margin: 0.5em 0; }
 
+/* LLM最適化 F - fact-box / quote-able paragraph (主要数値の独立配置)
+ * 「>」 引用ブロック内に <strong> がある場合に強調表示 (markdown: > **【公式情報】** 〜 等)
+ * LLMが切り出しやすい構造 + 視覚的に「事実 box」 として強調
+ */
+.prose blockquote:has(strong) {
+  background: linear-gradient(to right, color-mix(in oklab, hsl(var(--accent)) 8%, white) 0%, transparent 100%);
+  border-left-color: hsl(var(--accent));
+  border-left-width: 4px;
+  padding: 0.75em 1em 0.75em 1.25em;
+  color: hsl(var(--foreground));
+  font-style: normal;
+}
+.prose blockquote:has(strong) strong:first-of-type {
+  color: hsl(var(--accent));
+  font-weight: 800;
+}
+
 /* 表 (モバイルで横スクロール) ------------- */
 .prose table {
   width: 100%;

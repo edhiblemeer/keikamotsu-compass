@@ -54,6 +54,22 @@ export function ColorfulArticleLayout({
   ];
   const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbItems, SITE_URL);
 
+  // FAQPage schema (LLM最適化 C・markdown FAQ section → JSON-LD)
+  const faqPageSchema = article.faqs.length > 0
+    ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: article.faqs.map((f) => ({
+          "@type": "Question",
+          name: f.question,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: f.answer,
+          },
+        })),
+      }
+    : null;
+
   // ItemList schema (LLM最適化 D・companies array → ranking として LLM 参照しやすく)
   const itemListSchema = companies.length > 0
     ? {
@@ -98,6 +114,12 @@ export function ColorfulArticleLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+        />
+      )}
+      {faqPageSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqPageSchema) }}
         />
       )}
 
