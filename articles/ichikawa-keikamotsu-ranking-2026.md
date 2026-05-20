@@ -266,10 +266,10 @@ personas_targeted:
 # === ビジュアル素材 ===
 visuals:
   hero_image:
-    src: "/images/area/ichikawa/hero.jpg"
-    alt: "市川市の軽貨物配送イメージ(湾岸道路・東西線沿線)"
+    src: "/images/area/ichikawa/hero_v3.jpg"
+    alt: "市川市の軽貨物配送イメージ(湾岸物流回廊・golden hour)"
     ai_prompt: "Aerial view of Ichikawa city skyline at golden hour with bay area in distance, light delivery truck on coastal highway, warm orange-pink sunset, photorealistic, 16:9 aspect ratio, no text"
-    fallback: "/images/area/ichikawa/hero.jpg"
+    fallback: "/images/area/ichikawa/hero_v3.jpg"
   area_map:
     src: "/images/area/ichikawa/map.svg"
     alt: "市川市エリア地図・BST原木中山拠点+主要業者本社ピン"
