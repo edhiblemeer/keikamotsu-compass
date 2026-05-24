@@ -4,7 +4,7 @@ import { getAllArticleSummaries } from "@/lib/articles";
 export const dynamic = "force-static";
 
 const BASE =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://keikamotsu-compass.vercel.app";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.kei-compass.org";
 
 /**
  * /llms-full.txt - LLM向け詳細版 (frontmatter 全 metadata + companies array 概要)
@@ -21,11 +21,12 @@ export async function GET(): Promise<NextResponse> {
     "## メディア基本情報",
     "",
     "- メディア名: 軽貨物コンパス",
-    "- ドメイン: keikamotsu-compass.vercel.app",
+    "- ドメイン: www.kei-compass.org",
     "- 運営: 株式会社EST FORT",
     "- 採点軸: 公開情報15項目 (報酬透明性 / 規制対応 / 拠点・通勤 / サポート / 将来性 等)",
     "- ステマ規制対応: 株式会社ブーストは関連法人 (代表取締役同・資本関係なし)",
-    "- 関連法人開示: https://boost-sys.vercel.app/disclosure/related-entities",
+    "- 関連法人開示: https://logi-boost.org/disclosure/related-entities",
+    "- カバーエリア: 千葉県細分化8エリア (船橋/市川/千葉市/松戸/八千代/印西/我孫子/鎌ケ谷) + 東京北部4区シリーズ (練馬/板橋/北/足立)",
     "",
     "## 記事詳細",
     "",

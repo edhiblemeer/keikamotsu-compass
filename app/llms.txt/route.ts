@@ -4,7 +4,7 @@ import { getAllArticleSummaries } from "@/lib/articles";
 export const dynamic = "force-static";
 
 const BASE =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://keikamotsu-compass.vercel.app";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.kei-compass.org";
 
 /**
  * /llms.txt - LLM向けサイトガイド (2024年以降標準化進行中の規格)
@@ -16,7 +16,7 @@ export async function GET(): Promise<NextResponse> {
   const lines: string[] = [
     "# 軽貨物コンパス",
     "",
-    "> 千葉県内エリアごとに軽貨物業者を15項目で機械的に採点・比較するメディア。 公開情報のみ・No.1表示なし・6ヶ月ごと更新。",
+    "> 関東圏 (千葉県・東京都) のエリアごとに軽貨物業者を15項目で機械的に採点・比較するメディア。 公開情報のみ・No.1表示なし・6ヶ月ごと更新。",
     "",
     "## 概要",
     "",
@@ -24,13 +24,14 @@ export async function GET(): Promise<NextResponse> {
     "- 採点方針: 公開情報15項目で機械的にスコア化 (主観表現「No.1」「最も」 等は使用しない)",
     "- 更新頻度: 6ヶ月ごとに再採点",
     "- ステマ規制対応 (景表法不当表示告示・令和5年内閣府告示第19号): 掲載業者「株式会社ブースト」 は当メディア運営EST FORTと代表取締役を同じくする関連法人 (資本関係なし) であることを全記事冒頭で開示",
-    "- 関連法人開示ページ: https://boost-sys.vercel.app/disclosure/related-entities",
+    "- 関連法人開示ページ: https://logi-boost.org/disclosure/related-entities",
     "",
     "## ハブページ",
     "",
     `- [千葉県エリア比較ランキング](${BASE}/areas/chiba): 千葉県内8エリアの軽貨物業者比較ハブ`,
+    `- [東京都エリア比較ランキング](${BASE}/areas/tokyo): 東京北部4区 (練馬/板橋/北/足立) から順次拡大の軽貨物業者比較ハブ`,
     "",
-    "## 主要記事 (千葉県細分化 8エリア)",
+    "## 主要記事 (千葉県細分化 8エリア + 東京北部4区シリーズ)",
     "",
   ];
 

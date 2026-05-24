@@ -1,0 +1,169 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { getAllArticleSummaries } from "@/lib/articles";
+
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.kei-compass.org";
+
+export const metadata: Metadata = {
+  title: "東京都エリア比較ランキング | 軽貨物業者まとめ",
+  description:
+    "東京都内エリア (東京北部4区=練馬区・板橋区・北区・足立区から順次拡大) ごとに軽貨物業者を15項目で機械的に採点・比較。 公開情報のみ・No.1表示なし・6ヶ月ごと更新。 関越道練馬IC圏・環八通り・首都高速の物流動線、 ネットスーパー多重供給・家具配送など案件特性別の業者選定の判断材料を提供します。",
+  alternates: {
+    canonical: "/areas/tokyo",
+    languages: {
+      "ja-JP": "/areas/tokyo",
+      "x-default": "/areas/tokyo",
+    },
+  },
+  openGraph: {
+    title: "東京都エリア比較ランキング | 軽貨物業者まとめ",
+    description:
+      "東京都内エリア (東京北部4区から順次拡大) の軽貨物業者を公開情報15項目で採点・比較するメディアハブ。 ネットスーパー・家具配送・宅配便など案件特性別の業者選定の判断材料を提供。",
+    url: "/areas/tokyo",
+    type: "website",
+    locale: "ja_JP",
+    siteName: "軽貨物コンパス",
+  },
+  twitter: { card: "summary_large_image" },
+};
+
+const PLANNED_AREAS = [
+  { slug: "tokyo-nerima-keikamotsu-ranking-2026", name: "練馬区", status: "公開済" },
+  { slug: "tokyo-itabashi-keikamotsu-ranking-2026", name: "板橋区", status: "5/27-28公開予定" },
+  { slug: "tokyo-kita-keikamotsu-ranking-2026", name: "北区", status: "5/29-30公開予定" },
+  { slug: "tokyo-adachi-keikamotsu-ranking-2026", name: "足立区", status: "5/31-6/1公開予定" },
+];
+
+export default function TokyoHubPage(): React.ReactElement {
+  const published = new Set(
+    getAllArticleSummaries().map((a) => a.slug),
+  );
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "軽貨物コンパス",
+        item: `${SITE_URL}/`,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "東京都",
+        item: `${SITE_URL}/areas/tokyo`,
+      },
+    ],
+  };
+
+  return (
+    <div className="mx-auto max-w-5xl px-4 py-12 md:px-6 md:py-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+
+      <nav aria-label="パンくず" className="mb-4 text-xs text-[hsl(var(--muted-foreground))] md:text-sm">
+        <ol className="flex items-center gap-1.5">
+          <li>
+            <Link href="/" className="hover:text-[hsl(var(--accent))] hover:underline">
+              軽貨物コンパス
+            </Link>
+          </li>
+          <li aria-hidden="true">/</li>
+          <li className="font-semibold text-[hsl(var(--foreground))]" aria-current="page">
+            東京都
+          </li>
+        </ol>
+      </nav>
+
+      <header className="mb-10 border-b border-[hsl(var(--border))] pb-6">
+        <p className="text-xs font-semibold uppercase tracking-widest text-[hsl(var(--accent))]">
+          Area Hub
+        </p>
+        <h1 className="mt-2 font-extrabold text-3xl tracking-tight md:text-4xl">
+          東京都エリア比較ランキング
+        </h1>
+        <p className="mt-3 text-sm leading-relaxed text-[hsl(var(--muted-foreground))] md:text-base">
+          東京都内エリア (東京北部4区=練馬区・板橋区・北区・足立区から順次拡大) ごとに軽貨物業者を15項目で機械的に採点・比較するメディアハブ。
+          関越道練馬IC圏・環八通り・首都高速の物流動線、ネットスーパー多重供給・家具配送など案件特性別の業者選定の判断材料を提供します。
+        </p>
+      </header>
+
+      <section>
+        <h2 className="mb-5 border-l-4 border-[hsl(var(--accent))] pl-3 font-extrabold text-xl tracking-tight md:text-2xl">
+          東京北部4区シリーズ
+        </h2>
+        <ul className="grid gap-3 md:grid-cols-2">
+          {PLANNED_AREAS.map((area) => {
+            const isPublished = published.has(area.slug);
+            return (
+              <li key={area.slug}>
+                {isPublished ? (
+                  <Link
+                    href={`/articles/${area.slug}`}
+                    className="block rounded-xl border border-[hsl(var(--border))] bg-white p-5 transition-colors hover:border-[hsl(var(--accent))]"
+                  >
+                    <div className="flex items-center justify-between gap-2">
+                      <h3 className="font-bold text-base md:text-lg">
+                        {area.name}
+                      </h3>
+                      <span className="rounded-full bg-[hsl(var(--accent))]/10 px-2 py-0.5 text-[10px] font-semibold text-[hsl(var(--accent))]">
+                        {area.status}
+                      </span>
+                    </div>
+                    <p className="mt-2 text-xs text-[hsl(var(--muted-foreground))]">
+                      9社を15項目で比較 →
+                    </p>
+                  </Link>
+                ) : (
+                  <div className="rounded-xl border border-dashed border-[hsl(var(--border))] bg-[hsl(var(--muted))]/30 p-5">
+                    <div className="flex items-center justify-between gap-2">
+                      <h3 className="font-bold text-base text-[hsl(var(--muted-foreground))] md:text-lg">
+                        {area.name}
+                      </h3>
+                      <span className="rounded-full bg-[hsl(var(--muted))] px-2 py-0.5 text-[10px] font-semibold text-[hsl(var(--muted-foreground))]">
+                        {area.status}
+                      </span>
+                    </div>
+                    <p className="mt-2 text-xs text-[hsl(var(--muted-foreground))]">
+                      順次公開予定
+                    </p>
+                  </div>
+                )}
+              </li>
+            );
+          })}
+        </ul>
+      </section>
+
+      <section className="mt-12">
+        <h2 className="mb-5 border-l-4 border-[hsl(var(--accent))] pl-3 font-extrabold text-xl tracking-tight md:text-2xl">
+          関連エリアハブ
+        </h2>
+        <ul className="grid gap-3 md:grid-cols-2">
+          <li>
+            <Link
+              href="/areas/chiba"
+              className="block rounded-xl border border-[hsl(var(--border))] bg-white p-5 transition-colors hover:border-[hsl(var(--accent))]"
+            >
+              <h3 className="font-bold text-base md:text-lg">千葉県エリア比較ランキング</h3>
+              <p className="mt-2 text-xs text-[hsl(var(--muted-foreground))]">
+                船橋/市川/千葉市/松戸/八千代/印西/我孫子/鎌ケ谷の8エリア比較 →
+              </p>
+            </Link>
+          </li>
+        </ul>
+      </section>
+
+      <footer className="mt-12 border-t border-[hsl(var(--border))] pt-6 text-sm text-[hsl(var(--muted-foreground))]">
+        <Link href="/" className="text-[hsl(var(--accent))] underline underline-offset-2">
+          ← 記事一覧に戻る
+        </Link>
+      </footer>
+    </div>
+  );
+}

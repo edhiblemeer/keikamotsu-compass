@@ -16,6 +16,7 @@ interface PageProps {
  * 将来 frontmatter `template: "v2_colorful"` 移行時はこの定数を判定式に置換するだけ。
  */
 const V2_COLORFUL_SLUGS = new Set<string>([
+  // === 千葉県細分化シリーズ (第1-8弾) ===
   "chiba-funabashi-keikamotsu-ranking-2026",
   "ichikawa-keikamotsu-ranking-2026",
   "yachiyo-keikamotsu-ranking-2026",
@@ -24,6 +25,11 @@ const V2_COLORFUL_SLUGS = new Set<string>([
   "abiko-keikamotsu-ranking-2026",
   "inzai-keikamotsu-ranking-2026",
   "kamagaya-keikamotsu-ranking-2026",
+  // === 東京北部4区シリーズ (第1-4弾・5/24-6/1) ===
+  "tokyo-nerima-keikamotsu-ranking-2026",
+  "tokyo-itabashi-keikamotsu-ranking-2026",
+  "tokyo-kita-keikamotsu-ranking-2026",
+  "tokyo-adachi-keikamotsu-ranking-2026",
 ]);
 
 export async function generateStaticParams(): Promise<{ slug: string }[]> {
@@ -57,6 +63,11 @@ export async function generateMetadata({
   };
   if (ogImageAbs) citationOther.citation_image = ogImageAbs;
 
+  // OG/Article section - slug プレフィックスから都道府県判定
+  const sectionLabel = slug.startsWith("tokyo-")
+    ? "東京都エリア比較ランキング"
+    : "千葉県エリア比較ランキング";
+
   return {
     title: article.frontmatter.title,
     description: article.frontmatter.description,
@@ -79,7 +90,7 @@ export async function generateMetadata({
       publishedTime: article.frontmatter.publishedAt,
       modifiedTime: article.frontmatter.updatedAt,
       authors: ["株式会社EST FORT"],
-      section: "千葉県エリア比較ランキング",
+      section: sectionLabel,
       tags: article.frontmatter.tags,
       images: ogImageAbs
         ? [
@@ -126,7 +137,9 @@ export default async function ArticlePage({
     datePublished: frontmatter.publishedAt,
     dateModified: frontmatter.updatedAt ?? frontmatter.publishedAt,
     inLanguage: "ja-JP",
-    articleSection: "千葉県エリア比較ランキング",
+    articleSection: slug.startsWith("tokyo-")
+      ? "東京都エリア比較ランキング"
+      : "千葉県エリア比較ランキング",
     ...(frontmatter.tags && frontmatter.tags.length > 0 && {
       keywords: frontmatter.tags.join(", "),
     }),

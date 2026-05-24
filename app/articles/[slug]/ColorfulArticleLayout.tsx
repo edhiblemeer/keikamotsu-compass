@@ -46,10 +46,11 @@ export function ColorfulArticleLayout({
   ];
 
   // パンくず構築 (Google BreadcrumbList 準拠)
-  // 千葉県hub 有効化 (8エリア達成) → href: /areas/chiba 設定
+  // 都道府県分岐: slug プレフィックスから判定 (tokyo-* → 東京都, chiba-* or ichikawa/matsudo/abiko/yachiyo/inzai/kamagaya → 千葉県)
+  const prefectureInfo = derivePrefectureFromSlug(article.slug);
   const breadcrumbItems: BreadcrumbItem[] = [
     { name: "軽貨物コンパス", href: "/" },
-    { name: "千葉県", href: "/areas/chiba" },
+    { name: prefectureInfo.name, href: prefectureInfo.href },
     { name: frontmatter.area ?? frontmatter.title },
   ];
   const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbItems, SITE_URL);
@@ -177,6 +178,18 @@ export function ColorfulArticleLayout({
       </footer>
     </article>
   );
+}
+
+/**
+ * slug プレフィックスから都道府県情報を導出。
+ * - tokyo- プレフィックス → 東京都 (/areas/tokyo)
+ * - 上記以外 (chiba-funabashi / ichikawa / matsudo / abiko / yachiyo / inzai / kamagaya / chiba-shi) → 千葉県 (/areas/chiba)
+ */
+function derivePrefectureFromSlug(slug: string): { name: string; href: string } {
+  if (slug.startsWith("tokyo-")) {
+    return { name: "東京都", href: "/areas/tokyo" };
+  }
+  return { name: "千葉県", href: "/areas/chiba" };
 }
 
 /**
