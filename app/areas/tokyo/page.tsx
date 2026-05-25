@@ -31,7 +31,7 @@ export const metadata: Metadata = {
 const PLANNED_AREAS = [
   { slug: "tokyo-nerima-keikamotsu-ranking-2026", name: "練馬区", status: "公開済" },
   { slug: "tokyo-itabashi-keikamotsu-ranking-2026", name: "板橋区", status: "公開済" },
-  { slug: "tokyo-kita-keikamotsu-ranking-2026", name: "北区", status: "5/29-30公開予定" },
+  { slug: "tokyo-kita-keikamotsu-ranking-2026", name: "北区", status: "公開済" },
   { slug: "tokyo-adachi-keikamotsu-ranking-2026", name: "足立区", status: "5/31-6/1公開予定" },
 ];
 
