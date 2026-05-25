@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const DISCLOSURE_URL =
-  "https://boost-sys.vercel.app/disclosure/related-entities";
+  "https://www.logi-boost.org/disclosure/related-entities";
 
 // LLM最適化 E - E-E-A-T: Organization schema + Publisher 専門性明示
 const organizationSchema = {
@@ -113,7 +113,7 @@ export default function AboutPage(): React.ReactElement {
             target="_blank"
             rel="noopener noreferrer"
           >
-            関連法人開示ページ (boost-sys.vercel.app/disclosure/related-entities)
+            関連法人開示ページ (www.logi-boost.org/disclosure/related-entities)
           </a>
         </p>
         <p>

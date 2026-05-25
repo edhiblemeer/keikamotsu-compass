@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 };
 
 const DISCLOSURE_URL =
-  "https://boost-sys.vercel.app/disclosure/related-entities";
+  "https://www.logi-boost.org/disclosure/related-entities";
 
 export default function RootLayout({
   children,
