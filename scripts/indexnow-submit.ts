@@ -12,7 +12,9 @@
 import sitemapFn from "../app/sitemap";
 
 const ENDPOINT = "https://api.indexnow.org/indexnow";
-const HOST = "keikamotsu-compass.vercel.app";
+// 新ドメイン移行 (2026-05): sitemap BASE / key file 配信先と一致させる
+// (IndexNow は host・urlList・keyLocation が同一ドメインでないと 422)
+const HOST = "www.kei-compass.org";
 const KEY = process.env.INDEXNOW_KEY_KEIKAMOTSU;
 const KEY_LOCATION = KEY ? `https://${HOST}/${KEY}.txt` : "";
 
