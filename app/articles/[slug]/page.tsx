@@ -30,6 +30,11 @@ const V2_COLORFUL_SLUGS = new Set<string>([
   "tokyo-itabashi-keikamotsu-ranking-2026",
   "tokyo-kita-keikamotsu-ranking-2026",
   "tokyo-adachi-keikamotsu-ranking-2026",
+  // === 東京北東部4区シリーズ (第5-8弾・5/28) ===
+  "tokyo-arakawa-keikamotsu-ranking-2026",
+  "tokyo-katsushika-keikamotsu-ranking-2026",
+  "tokyo-edogawa-keikamotsu-ranking-2026",
+  "tokyo-taito-keikamotsu-ranking-2026",
 ]);
 
 export async function generateStaticParams(): Promise<{ slug: string }[]> {

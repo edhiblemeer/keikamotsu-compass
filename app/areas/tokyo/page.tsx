@@ -33,6 +33,10 @@ const PLANNED_AREAS = [
   { slug: "tokyo-itabashi-keikamotsu-ranking-2026", name: "板橋区", status: "公開済" },
   { slug: "tokyo-kita-keikamotsu-ranking-2026", name: "北区", status: "公開済" },
   { slug: "tokyo-adachi-keikamotsu-ranking-2026", name: "足立区", status: "公開済" },
+  { slug: "tokyo-arakawa-keikamotsu-ranking-2026", name: "荒川区", status: "公開済" },
+  { slug: "tokyo-katsushika-keikamotsu-ranking-2026", name: "葛飾区", status: "公開済" },
+  { slug: "tokyo-edogawa-keikamotsu-ranking-2026", name: "江戸川区", status: "公開済" },
+  { slug: "tokyo-taito-keikamotsu-ranking-2026", name: "台東区", status: "公開済" },
 ];
 
 export default function TokyoHubPage(): React.ReactElement {
