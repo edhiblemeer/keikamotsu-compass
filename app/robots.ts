@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const BASE = "https://keikamotsu-compass.vercel.app";
+const BASE = "https://www.kei-compass.org";
 
 /**
  * robots.txt - AI crawler 明示許可 (LLM最適化 B).

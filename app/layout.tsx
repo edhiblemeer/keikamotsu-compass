@@ -3,7 +3,7 @@ import Link from "next/link";
 import "./globals.css";
 
 const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://keikamotsu-compass.vercel.app";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.kei-compass.org";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

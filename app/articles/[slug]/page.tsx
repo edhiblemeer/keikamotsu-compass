@@ -5,7 +5,7 @@ import { getAllArticleSlugs, getArticleBySlug } from "@/lib/articles";
 import { ColorfulArticleLayout } from "./ColorfulArticleLayout";
 
 const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://keikamotsu-compass.vercel.app";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.kei-compass.org";
 
 interface PageProps {
   params: Promise<{ slug: string }>;

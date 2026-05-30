@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://keikamotsu-compass.vercel.app";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.kei-compass.org";
 
 export const metadata: Metadata = {
   title: "運営について",

@@ -41,7 +41,7 @@ export default async function ChibaFunabashiDetailPage(): Promise<React.ReactEle
     author: {
       "@type": "Organization",
       name: "株式会社EST FORT",
-      url: "https://keikamotsu-compass.vercel.app/about",
+      url: "https://www.kei-compass.org/about",
     },
     publisher: {
       "@type": "Organization",

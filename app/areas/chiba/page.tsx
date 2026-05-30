@@ -3,7 +3,7 @@ import Link from "next/link";
 import { getAllArticleSummaries } from "@/lib/articles";
 
 const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://keikamotsu-compass.vercel.app";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.kei-compass.org";
 
 export const metadata: Metadata = {
   title: "千葉県エリア比較ランキング | 軽貨物業者まとめ",
