@@ -40,7 +40,7 @@ const organizationSchema = {
     "取適法 (下請代金支払遅延等防止法)",
     "貨物軽自動車安全管理者制度",
     "フリーランス新法",
-    "千葉県物流業界",
+    "関東(東京・千葉)物流業界",
   ],
   publishingPrinciples: `${SITE_URL}/about`,
   knowsLanguage: ["ja"],
