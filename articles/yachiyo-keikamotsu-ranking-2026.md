@@ -293,7 +293,7 @@ tags:
 <!--
 NOTE: 本記事はv2(キャッチー版・8,000-9,500字)。
 千葉県細分化第5弾(八千代市特化)。
-姉妹記事: chiba-funabashi-keikamotsu-ranking-2026 (船橋・第1弾) / ichikawa (市川・第2弾) / chiba-city (千葉市・第3弾) / matsudo (松戸・第4弾)
+姉妹記事: chiba-funabashi-keikamotsu-ranking-2026 (船橋・第1弾) / ichikawa (市川・第2弾) / chiba-shi (千葉市・第3弾) / matsudo (松戸・第4弾)
 八千代市本社業者(Avarice)の重み付けを上げ、地元密着軸でBSTと差別化。
 doorway pages認定回避のため、八千代市特化要素(日本初住宅団地+東葉高速鉄道ニュータウン+GLP/プロロジス物流回廊+船橋圏統合)を強調。
 -->
@@ -712,9 +712,9 @@ GLP八千代V(2025年4月竣工・15.76万㎡・ダイワコーポ専用1棟借)
 
 - [千葉船橋エリア 軽貨物業者ランキング2026(第1弾)](/articles/chiba-funabashi-keikamotsu-ranking-2026)
 - [市川市 軽貨物業者ランキング2026(第2弾)](/articles/ichikawa-keikamotsu-ranking-2026)
-- [千葉市 軽貨物業者ランキング2026(第3弾)](/articles/chiba-city-keikamotsu-ranking-2026)
+- [千葉市 軽貨物業者ランキング2026(第3弾)](/articles/chiba-shi-keikamotsu-ranking-2026)
 - [松戸市 軽貨物業者ランキング2026(第4弾)](/articles/matsudo-keikamotsu-ranking-2026)
-- [千葉県軽貨物ハブページ(全エリア)](/area/chiba)
+- [千葉県軽貨物ハブページ(全エリア)](/areas/chiba)
 - [軽貨物業界2026年規制クリフ完全解説](/regulation-2026)
 
 ---

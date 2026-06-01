@@ -18,7 +18,7 @@ parent_article: "/articles/chiba-funabashi-keikamotsu-ranking-2026"
 
 # 千葉船橋エリアの軽貨物業者ランキング2026年版｜家具配送・宅配便・スポット便を業務委託で月収40〜90万円
 
-> ※ 当メディアは株式会社EST FORTが運営しています。掲載業者の一社「株式会社ブースト」は、当メディア運営会社と代表取締役を同じくする関連法人 (資本関係なし) です ([詳細はこちら](https://boost-sys.vercel.app/disclosure/related-entities))。
+> ※ 当メディアは株式会社EST FORTが運営しています。掲載業者の一社「株式会社ブースト」は、当メディア運営会社と代表取締役を同じくする関連法人 (資本関係なし) です ([詳細はこちら](https://www.logi-boost.org/disclosure/related-entities))。
 
 ## 1. はじめに｜千葉船橋エリアの軽貨物業界は2026年から大きく変わる
 
@@ -96,7 +96,7 @@ parent_article: "/articles/chiba-funabashi-keikamotsu-ranking-2026"
 
 | 順位 | 業者名 | スコア | 主要訴求 | 公式WEB |
 |---|---|---|---|---|
-| 1 | 株式会社ブースト (BST) | 99/100 | 規制対応先行・5拠点・複合インフラ・継続率85%・実例PDF公開 | [boost-sys.vercel.app](https://boost-sys.vercel.app/) |
+| 1 | 株式会社ブースト (BST) | 99/100 | 規制対応先行・5拠点・複合インフラ・継続率85%・実例PDF公開 | [www.logi-boost.org](https://www.logi-boost.org/) |
 | 2 | 株式会社エアフォルク | 64/100 | 売上17.25億・185名・500台・買収成長・許認可複数開示 | [erfolg-ltd.co.jp](https://erfolg-ltd.co.jp/) |
 | 3 | 株式会社シェイクハート | 60/100 | 全国3,500名NW・年商11億・取引先具体名公開 | [Shake heart](https://xn--z9jz33k8u6a.jp/) |
 | 4 | 株式会社ZEAL (船橋) | 47/100 | 船橋本社・専属委託100名・月65〜70万コース | [zeal2019.co.jp](https://www.zeal2019.co.jp/) |
@@ -197,10 +197,10 @@ parent_article: "/articles/chiba-funabashi-keikamotsu-ranking-2026"
 
 ### 4-4. 公開情報ソース
 
-- [株式会社ブースト 公式WEB](https://boost-sys.vercel.app/)
+- [株式会社ブースト 公式WEB](https://www.logi-boost.org/)
 - [BST engage 採用ページ](https://en-gage.net/0411sawa_saiyo/)
 - [BST 採用係長](https://s8290-6834.saiyo-kakaricho.com/)
-- [BST 求人LP (boost-sys)](https://boost-sys.vercel.app/recruit) ← **応募・詳細はこちら**
+- [BST 求人LP (boost-sys)](https://www.logi-boost.org/recruit) ← **応募・詳細はこちら**
 - [BST Indeed口コミ](https://jp.indeed.com/cmp/%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE-%E3%83%96%E3%83%BC%E3%82%B9%E3%83%88-1/reviews)
 
 ### 4-5. 公開情報からは確認できなかった項目
@@ -691,7 +691,7 @@ Indeed総合評価1.5/5.0 (件数2件) 。ネガティブ指摘として「**額
 
 応募の際は、本記事「14. 千葉船橋エリアで軽貨物業者を選ぶ4つの基本原則」のチェックリストをぜひご活用ください。
 
-**株式会社ブーストの求人詳細・応募はこちら**: [boost-sys.vercel.app/recruit](https://boost-sys.vercel.app/recruit)
+**株式会社ブーストの求人詳細・応募はこちら**: [www.logi-boost.org/recruit](https://www.logi-boost.org/recruit)
 
 ---
 
@@ -754,7 +754,7 @@ Indeed総合評価1.5/5.0 (件数2件) 。ネガティブ指摘として「**額
 
 ### 掲載業者との関係性開示
 
-※ 当メディアは株式会社EST FORTが運営しています。掲載業者の一社「株式会社ブースト」は、当メディア運営会社と代表取締役を同じくする関連法人 (資本関係なし) です ([詳細はこちら](https://boost-sys.vercel.app/disclosure/related-entities))。
+※ 当メディアは株式会社EST FORTが運営しています。掲載業者の一社「株式会社ブースト」は、当メディア運営会社と代表取締役を同じくする関連法人 (資本関係なし) です ([詳細はこちら](https://www.logi-boost.org/disclosure/related-entities))。
 
 本記事は2026年5月19日時点の各社公式WEB公開情報に基づき作成しています。情報は随時変動します、最新情報は各社公式WEBで確認ください。
 

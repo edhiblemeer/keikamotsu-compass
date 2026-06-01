@@ -35,6 +35,8 @@ const V2_COLORFUL_SLUGS = new Set<string>([
   "tokyo-katsushika-keikamotsu-ranking-2026",
   "tokyo-edogawa-keikamotsu-ranking-2026",
   "tokyo-taito-keikamotsu-ranking-2026",
+  // === 東京湾岸・城東 横展開 (第9弾〜・6/1) ===
+  "tokyo-koto-keikamotsu-ranking-2026",
 ]);
 
 export async function generateStaticParams(): Promise<{ slug: string }[]> {
