@@ -6,7 +6,7 @@ const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.kei-compass.org";
 
 export const metadata: Metadata = {
-  title: "千葉県の軽貨物運送業者 比較ランキング | 軽貨物コンパス",
+  title: "千葉県の軽貨物運送業者 比較ランキング",
   description:
     "千葉県の軽貨物運送業者を、千葉県全エリア (船橋/市川/松戸/印西/八千代/我孫子/鎌ケ谷/千葉市) ごとに15項目で機械的に採点・比較。 公開情報のみ・No.1表示なし・6ヶ月ごと更新。 EC物流・家具配送・宅配便など案件特性別の業者選定の判断材料を提供します。",
   alternates: {
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "千葉県の軽貨物運送業者 比較ランキング | 軽貨物コンパス",
+    title: "千葉県の軽貨物運送業者 比較ランキング",
     description:
       "千葉県の軽貨物運送業者を全8エリア (船橋/市川/松戸/印西/八千代/我孫子/鎌ケ谷/千葉市) で公開情報15項目を機械的に採点・比較するメディアハブ。 EC物流・家具配送・宅配便など案件特性別の業者選定の判断材料を提供。",
     url: "/areas/chiba",
