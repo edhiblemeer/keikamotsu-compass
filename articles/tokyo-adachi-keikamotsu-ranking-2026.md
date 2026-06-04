@@ -1,7 +1,7 @@
 ---
 # === 記事基本情報 ===
 article_id: ef-ranking-tokyo-adachi-2026-v2
-title: "足立区の軽貨物業者ランキング2026|月収30-80万円・15項目スコアで本当に選ぶべき1社"
+title: "足立区の軽貨物ドライバー求人 | 軽貨物業者比較ランキング | 軽貨物コンパス"
 slug: tokyo-adachi-keikamotsu-ranking-2026
 canonical: https://www.kei-compass.org/articles/tokyo-adachi-keikamotsu-ranking-2026
 published_at: 2026-05-25
@@ -13,7 +13,7 @@ parent_template: 2026-05-19_ef_ranking_article_template.md
 sibling_article: tokyo-kita-keikamotsu-ranking-2026
 
 # === SEO情報 ===
-meta_title: "足立区の軽貨物業者ランキング2026|月収30-80万円・15項目で本当に選ぶべき1社"
+meta_title: "足立区の軽貨物ドライバー求人 | 軽貨物業者比較ランキング | 軽貨物コンパス"
 meta_description: "東京都足立区で軽貨物業務委託を検討する方向け、公開情報15項目で採点した業者ランキング2026年版。足立区内本社のK VANCREW・Towa Express・SG含む9社を比較。月収30-80万円の実例、北千住=5路線結節の巨大ターミナル・足立トラックターミナル(東北/上越/常磐ゲートウェイ)・都内唯一2市場(北足立市場=青果花き)・人口70万23区最大級・環七通り/国道4号(日光街道)の配送動線も整理。"
 keywords:
   - 軽貨物 足立区 ランキング
