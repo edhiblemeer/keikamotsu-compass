@@ -1,7 +1,7 @@
 ---
 # === 記事基本情報 ===
 article_id: ef-ranking-tokyo-itabashi-2026-v2
-title: "板橋区の軽貨物業者ランキング2026|月収30-80万円・15項目スコアで本当に選ぶべき1社"
+title: "板橋区 軽貨物業者ランキング2026 | ドライバー求人・料金・対応エリア比較"
 slug: tokyo-itabashi-keikamotsu-ranking-2026
 canonical: https://www.kei-compass.org/articles/tokyo-itabashi-keikamotsu-ranking-2026
 published_at: 2026-05-25
@@ -13,7 +13,7 @@ parent_template: 2026-05-19_ef_ranking_article_template.md
 sibling_article: tokyo-nerima-keikamotsu-ranking-2026
 
 # === SEO情報 ===
-meta_title: "板橋区の軽貨物業者ランキング2026|月収30-80万円・15項目で本当に選ぶべき1社"
+meta_title: "板橋区 軽貨物業者ランキング2026 | ドライバー求人・料金・対応エリア比較"
 meta_description: "東京都板橋区で軽貨物業務委託を検討する方向け、公開情報15項目で採点した業者ランキング2026年版。板橋区内本社のM&Y・Green Drive・BOND含む9社を比較。月収30-80万円の実例、首都高5号池袋線・環八通り・川越街道の配送動線、MFLP東京板橋など物流施設集積・高島平団地・埼玉県境(戸田/和光)クロスボーダー事情も整理。"
 keywords:
   - 軽貨物 板橋区 ランキング

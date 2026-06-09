@@ -1,7 +1,7 @@
 ---
 # === 記事基本情報 ===
 article_id: ef-ranking-kamagaya-2026-v2
-title: "鎌ケ谷市の軽貨物業者ランキング2026|月収25-90万円・新鎌ケ谷4路線ハブ+4方面稼働で選ぶ1社"
+title: "鎌ケ谷市 軽貨物業者ランキング2026 | ドライバー求人・料金・対応エリア比較"
 slug: kamagaya-keikamotsu-ranking-2026
 canonical: https://www.kei-compass.org/articles/kamagaya-keikamotsu-ranking-2026
 published_at: 2026-05-20
@@ -13,7 +13,7 @@ parent_template: 2026-05-19_ef_ranking_article_template.md
 sibling_article: ichikawa-keikamotsu-ranking-2026
 
 # === SEO情報 ===
-meta_title: "鎌ケ谷市の軽貨物求人2026|4方面稼働で月収25-90万円・15項目スコアで稼げる1社を比較"
+meta_title: "鎌ケ谷市 軽貨物業者ランキング2026 | ドライバー求人・料金・対応エリア比較"
 meta_description: "鎌ケ谷市で軽貨物ドライバー求人・業務委託を探す方向け、公開情報15項目で採点した業者ランキング2026年版。鎌ケ谷=新鎌ケ谷4路線ハブ・北千葉道路を活かし船橋/松戸/柏/市川の4方面へ稼働できるエリア、未経験1-3ヶ月25-35万円・経験者40-90万円のリアル月収レンジと稼ぐコツを整理。鎌ケ谷本社のQuality含む9社比較。"
 keywords:
   - 軽貨物 鎌ケ谷市 ランキング

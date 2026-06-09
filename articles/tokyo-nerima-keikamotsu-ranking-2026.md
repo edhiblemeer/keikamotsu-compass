@@ -1,7 +1,7 @@
 ---
 # === 記事基本情報 ===
 article_id: ef-ranking-tokyo-nerima-2026-v2
-title: "練馬区の軽貨物業者ランキング2026|月収30-80万円・15項目スコアで本当に選ぶべき1社"
+title: "練馬区 軽貨物業者ランキング2026 | ドライバー求人・料金・対応エリア比較"
 slug: tokyo-nerima-keikamotsu-ranking-2026
 canonical: https://www.kei-compass.org/articles/tokyo-nerima-keikamotsu-ranking-2026
 published_at: 2026-05-24
@@ -13,7 +13,7 @@ parent_template: 2026-05-19_ef_ranking_article_template.md
 sibling_article: chiba-funabashi-keikamotsu-ranking-2026
 
 # === SEO情報 ===
-meta_title: "練馬区の軽貨物業者ランキング2026|月収30-80万円・15項目で本当に選ぶべき1社"
+meta_title: "練馬区 軽貨物業者ランキング2026 | ドライバー求人・料金・対応エリア比較"
 meta_description: "東京都練馬区で軽貨物業務委託を検討する方向け、公開情報15項目で採点した業者ランキング2026年版。練馬区内本社のLib Works・Mii・ai&ai含む9社を比較。月収30-80万円の実例、関越道練馬IC・環八通り・大泉学園/光が丘/東武練馬の配送動線、埼玉県南部クロスボーダー事情も整理。"
 keywords:
   - 軽貨物 練馬区 ランキング

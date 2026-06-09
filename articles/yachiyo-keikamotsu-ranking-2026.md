@@ -1,7 +1,7 @@
 ---
 # === 記事基本情報 ===
 article_id: ef-ranking-yachiyo-2026-v2
-title: "八千代市の軽貨物業者ランキング2026|月収40-90万円・15項目スコアで本当に選ぶべき1社"
+title: "八千代市 軽貨物業者ランキング2026 | ドライバー求人・料金・対応エリア比較"
 slug: yachiyo-keikamotsu-ranking-2026
 canonical: https://www.kei-compass.org/articles/yachiyo-keikamotsu-ranking-2026
 published_at: 2026-05-20
@@ -13,7 +13,7 @@ parent_template: 2026-05-19_ef_ranking_article_template.md
 sibling_article: chiba-funabashi-keikamotsu-ranking-2026
 
 # === SEO情報 ===
-meta_title: "八千代市の軽貨物求人2026|物流倉庫直引きで月収40-90万円・15項目スコアで稼げる1社を比較"
+meta_title: "八千代市 軽貨物業者ランキング2026 | ドライバー求人・料金・対応エリア比較"
 meta_description: "八千代市で軽貨物ドライバー求人・業務委託を探す方向け、公開情報15項目で採点した業者ランキング2026年版。八千代=GLP/プロロジス物流回廊50万㎡集積の倉庫直引きEC配送+東葉高速線沿線ニュータウン宅配で稼げるエリア、未経験1-3ヶ月25-35万円・経験者40-90万円のリアル月収レンジと稼ぐコツを整理。八千代本社のAvarice含む8社比較。"
 keywords:
   - 軽貨物 八千代市 ランキング

@@ -1,7 +1,7 @@
 ---
 # === 記事基本情報 ===
 article_id: ef-ranking-inzai-2026-v2
-title: "印西市の軽貨物業者ランキング2026|データセンター銀座×成田空港圏×ニュータウン物流ハブで本当に選ぶべき1社"
+title: "印西市 軽貨物業者ランキング2026 | ドライバー求人・料金・対応エリア比較"
 slug: inzai-keikamotsu-ranking-2026
 canonical: https://www.kei-compass.org/articles/inzai-keikamotsu-ranking-2026
 published_at: 2026-05-20
@@ -18,7 +18,7 @@ sibling_articles:
   - yachiyo-keikamotsu-ranking-2026
 
 # === SEO情報 ===
-meta_title: "印西市の軽貨物求人2026|DC銀座×成田圏で月収25-90万円・15項目スコアで稼げる1社を比較"
+meta_title: "印西市 軽貨物業者ランキング2026 | ドライバー求人・料金・対応エリア比較"
 meta_description: "印西市で軽貨物ドライバー求人・業務委託を探す方向け、公開情報15項目で採点した業者ランキング2026年版。印西=日本のデータセンター首都(1GW級)・成田空港30分圏のDC関連BtoB案件+千葉ニュータウンEC宅配で稼げるエリア、未経験1-3ヶ月25-35万円・経験者40-90万円超のリアル月収レンジと稼ぐコツを整理。稼げる8社比較。"
 keywords:
   - 軽貨物 印西市 ランキング

@@ -1,7 +1,7 @@
 ---
 # === 記事基本情報 ===
 article_id: ef-ranking-matsudo-2026-v2
-title: "松戸市の軽貨物業者ランキング2026|月収40-90万円・15項目スコアで本当に選ぶべき1社"
+title: "松戸市 軽貨物業者ランキング2026 | ドライバー求人・料金・対応エリア比較"
 slug: matsudo-keikamotsu-ranking-2026
 canonical: https://www.kei-compass.org/articles/matsudo-keikamotsu-ranking-2026
 published_at: 2026-05-20
@@ -13,7 +13,7 @@ parent_template: 2026-05-19_ef_ranking_article_template.md
 sibling_article: ichikawa-keikamotsu-ranking-2026
 
 # === SEO情報 ===
-meta_title: "松戸市の軽貨物求人2026|EC宅配で月収40-90万円・15項目スコアで稼げる1社を比較"
+meta_title: "松戸市 軽貨物業者ランキング2026 | ドライバー求人・料金・対応エリア比較"
 meta_description: "松戸市で軽貨物ドライバー求人・業務委託を探す方向け、公開情報15項目で採点した業者ランキング2026年版。松戸=DPL松戸14.7万㎡集積の住宅地EC宅配+南部市場食品ハブ+東京23区(葛飾・足立)クロスボーダーで稼げるエリア、未経験1-3ヶ月25-35万円・経験者40-90万円のリアル月収レンジと稼ぐコツを整理。松戸本社のエアフォルク含む11社比較。"
 keywords:
   - 軽貨物 松戸市 ランキング

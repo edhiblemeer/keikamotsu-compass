@@ -1,7 +1,7 @@
 ---
 # === 記事基本情報 ===
 article_id: ef-ranking-chiba-shi-2026-v2
-title: "千葉市の軽貨物業者ランキング2026|月収50-90万円・15項目スコアで本当に選ぶべき1社"
+title: "千葉市 軽貨物業者ランキング2026 | ドライバー求人・料金・対応エリア比較"
 slug: chiba-shi-keikamotsu-ranking-2026
 canonical: https://www.kei-compass.org/articles/chiba-shi-keikamotsu-ranking-2026
 published_at: 2026-05-20
@@ -14,7 +14,7 @@ sibling_article_1: chiba-funabashi-keikamotsu-ranking-2026
 sibling_article_2: ichikawa-keikamotsu-ranking-2026
 
 # === SEO情報 ===
-meta_title: "千葉市の軽貨物求人2026|多彩な案件で月収50-90万円・15項目スコアで稼げる1社を比較"
+meta_title: "千葉市 軽貨物業者ランキング2026 | ドライバー求人・料金・対応エリア比較"
 meta_description: "千葉市(政令指定都市・人口98万人)で軽貨物ドライバー求人・業務委託を探す方向け、公開情報15項目で採点した業者ランキング2026年版。千葉市=EC(千葉みなとFC)+BtoB(京葉工業)+MICE(幕張)+港湾の四面構造で案件が多彩、繁閑の振れが小さく安定して稼げるエリア。未経験1-3ヶ月25-35万円・経験者40-80万円のリアル月収レンジと稼ぐコツを整理。9社比較。"
 keywords:
   - 軽貨物 千葉市 ランキング

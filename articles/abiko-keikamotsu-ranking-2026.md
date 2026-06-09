@@ -1,7 +1,7 @@
 ---
 # === 記事基本情報 ===
 article_id: ef-ranking-abiko-2026-v2
-title: "我孫子市の軽貨物業者ランキング2026|月収25-70万円・15項目スコアで本当に選ぶべき1社"
+title: "我孫子市 軽貨物業者ランキング2026 | ドライバー求人・料金・対応エリア比較"
 slug: abiko-keikamotsu-ranking-2026
 canonical: https://www.kei-compass.org/articles/abiko-keikamotsu-ranking-2026
 published_at: 2026-05-20
@@ -13,7 +13,7 @@ parent_template: 2026-05-19_ef_ranking_article_template.md
 sibling_article: chiba-funabashi-keikamotsu-ranking-2026
 
 # === SEO情報 ===
-meta_title: "我孫子市の軽貨物求人2026|ネットスーパー配達で月収25-70万円・稼げる1社を比較"
+meta_title: "我孫子市 軽貨物業者ランキング2026 | ドライバー求人・料金・対応エリア比較"
 meta_description: "我孫子市で軽貨物ドライバー求人・業務委託を探す方向け、公開情報15項目で採点した業者ランキング2026年版。我孫子=住宅地EC宅配+ネットスーパー配達+取手県境クロスボーダーで稼げるエリア、未経験1-3ヶ月25-35万円・経験者40-70万円のリアル月収レンジと稼ぐコツを整理。我孫子本社のLien holdings・手賀沼急送サービス含む7社比較。"
 keywords:
   - 軽貨物 我孫子市 ランキング

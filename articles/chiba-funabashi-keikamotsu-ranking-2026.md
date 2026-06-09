@@ -1,7 +1,7 @@
 ---
 # === 記事基本情報 ===
 article_id: ef-ranking-chiba-funabashi-2026-v2
-title: "千葉船橋エリア 軽貨物業者ランキング2026|月収50-90万円・15項目スコアで本当に選ぶべき1社"
+title: "千葉県船橋市 軽貨物業者ランキング2026 | ドライバー求人・料金・対応エリア比較"
 slug: chiba-funabashi
 canonical: https://www.kei-compass.org/articles/chiba-funabashi-keikamotsu-ranking-2026
 published_at: 2026-05-19
@@ -11,7 +11,7 @@ locale: ja-JP
 version: v2.0
 
 # === SEO情報 ===
-meta_title: "船橋の軽貨物求人2026|家具配送で月収50-90万円・15項目スコアで稼げる1社を比較"
+meta_title: "千葉県船橋市 軽貨物業者ランキング2026 | ドライバー求人・料金・対応エリア比較"
 meta_description: "船橋市で軽貨物ドライバー求人・業務委託を探す方向け、公開情報15項目で採点した業者ランキング2026年版。船橋=2人1組の家具配送(才数建て)で稼げるエリア、未経験1-3ヶ月25-35万円・経験者50-90万円のリアル月収レンジと稼ぐコツ、規制対応・継続率を一覧整理。船橋で稼げる軽貨物業者の選び方が分かる詳細版も掲載。"
 keywords:
   - 軽貨物 千葉船橋 ランキング

@@ -1,7 +1,7 @@
 ---
 # === 記事基本情報 ===
 article_id: ef-ranking-tokyo-kita-2026-v2
-title: "北区の軽貨物業者ランキング2026|月収30-80万円・15項目スコアで本当に選ぶべき1社"
+title: "北区 軽貨物業者ランキング2026 | ドライバー求人・料金・対応エリア比較"
 slug: tokyo-kita-keikamotsu-ranking-2026
 canonical: https://www.kei-compass.org/articles/tokyo-kita-keikamotsu-ranking-2026
 published_at: 2026-05-25
@@ -13,7 +13,7 @@ parent_template: 2026-05-19_ef_ranking_article_template.md
 sibling_article: tokyo-itabashi-keikamotsu-ranking-2026
 
 # === SEO情報 ===
-meta_title: "北区の軽貨物業者ランキング2026|月収30-80万円・15項目で本当に選ぶべき1社"
+meta_title: "北区 軽貨物業者ランキング2026 | ドライバー求人・料金・対応エリア比較"
 meta_description: "東京都北区で軽貨物業務委託を検討する方向け、公開情報15項目で採点した業者ランキング2026年版。北区広域カバーのNELTEC・東京軽貨物・SG含む9社を比較。月収30-80万円の実例、赤羽=埼玉県境ターミナル(大宮/川口ゲートウェイ)・王子の印刷/製紙業歴史的集積・国道122号(北本通り)/環七通りの配送動線、23区高齢化率1位(65歳以上25%)のシニア宅配需要も整理。"
 keywords:
   - 軽貨物 北区 ランキング

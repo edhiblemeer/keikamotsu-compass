@@ -1,7 +1,7 @@
 ---
 # === 記事基本情報 ===
 article_id: ef-ranking-tokyo-taito-2026-v2
-title: "台東区の軽貨物業者ランキング2026|月収30-80万円・15項目スコアで本当に選ぶべき1社"
+title: "台東区 軽貨物業者ランキング2026 | ドライバー求人・料金・対応エリア比較"
 slug: tokyo-taito-keikamotsu-ranking-2026
 canonical: https://www.kei-compass.org/articles/tokyo-taito-keikamotsu-ranking-2026
 published_at: 2026-05-28
@@ -13,7 +13,7 @@ parent_template: 2026-05-19_ef_ranking_article_template.md
 sibling_article: tokyo-edogawa-keikamotsu-ranking-2026
 
 # === SEO情報 ===
-meta_title: "台東区の軽貨物業者ランキング2026|月収30-80万円・15項目で本当に選ぶべき1社"
+meta_title: "台東区 軽貨物業者ランキング2026 | ドライバー求人・料金・対応エリア比較"
 meta_description: "東京都台東区で軽貨物業務委託を検討する方向け、公開情報15項目で採点した業者ランキング2026年版。台東区内本社の地場業者含む9社を比較。月収30-80万円の実例、上野/浅草/御徒町/入谷/鶯谷の繁華エリア・JR山手/京浜東北/京成/銀座/日比谷/つくばエクスプレス/大江戸線の鉄道網・首都高1号上野線/中央環状線/昭和通り/江戸通り/明治通りの配送動線、面積23区2番目に小さい+人口密度21,000人/平方キロ+浅草=観光物流ゲートウェイの市場規模も整理。"
 keywords:
   - 軽貨物 台東区 ランキング

@@ -1,7 +1,7 @@
 ---
 # === 記事基本情報 ===
 article_id: ef-ranking-tokyo-koto-2026-v2
-title: "江東区の軽貨物業者ランキング2026|月収30-80万円・15項目スコアで本当に選ぶべき1社"
+title: "江東区 軽貨物業者ランキング2026 | ドライバー求人・料金・対応エリア比較"
 slug: tokyo-koto-keikamotsu-ranking-2026
 canonical: https://www.kei-compass.org/articles/tokyo-koto-keikamotsu-ranking-2026
 published_at: 2026-06-01
@@ -13,7 +13,7 @@ parent_template: 2026-05-19_ef_ranking_article_template.md
 sibling_article: tokyo-edogawa-keikamotsu-ranking-2026
 
 # === SEO情報 ===
-meta_title: "江東区の軽貨物業者ランキング2026|月収30-80万円・15項目で本当に選ぶべき1社"
+meta_title: "江東区 軽貨物業者ランキング2026 | ドライバー求人・料金・対応エリア比較"
 meta_description: "東京都江東区で軽貨物業務委託を検討する方向け、公開情報15項目で採点した業者ランキング2026年版。BST(荒川区本社・東京北部4区NW)含む9社を比較。月収30-80万円の実例、湾岸=Amazon FC/物流倉庫集積の東京EC物流心臓部・豊洲市場(都内最大の中央卸売市場)・有明/辰巳/新木場の臨海副都心・人口約53万・首都高湾岸線/9号深川線/清洲橋通り/永代通りの配送動線も整理。"
 keywords:
   - 軽貨物 江東区 ランキング

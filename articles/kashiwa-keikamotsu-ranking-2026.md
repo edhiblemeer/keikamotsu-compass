@@ -1,7 +1,7 @@
 ---
 # === 記事基本情報 ===
 article_id: ef-ranking-kashiwa-2026-v2
-title: "柏市の軽貨物業者ランキング2026|東葛最大都市・常磐線+TX結節で月収40-90万円・15項目スコアで選ぶべき1社"
+title: "柏市 軽貨物業者ランキング2026 | ドライバー求人・料金・対応エリア比較"
 slug: kashiwa-keikamotsu-ranking-2026
 canonical: https://www.kei-compass.org/articles/kashiwa-keikamotsu-ranking-2026
 published_at: 2026-06-05
@@ -13,7 +13,7 @@ parent_template: 2026-05-19_ef_ranking_article_template.md
 sibling_article: matsudo-keikamotsu-ranking-2026
 
 # === SEO情報 ===
-meta_title: "柏市の軽貨物求人2026|常磐線+TX結節で月収40-90万円・15項目スコアで稼げる1社を比較"
+meta_title: "柏市 軽貨物業者ランキング2026 | ドライバー求人・料金・対応エリア比較"
 meta_description: "千葉県柏市で軽貨物ドライバー求人・業務委託を探す方向け、公開情報15項目で採点した業者ランキング2026年版。柏=東葛最大43万都市・常磐線+つくばエクスプレス+国道16号+常磐道柏IC結節の物流ハブ、未経験1-3ヶ月25-35万円・経験者40-90万円のリアル月収レンジと稼ぐコツを整理。柏本社の小名木運送・プログレス含む9社比較。"
 keywords:
   - 軽貨物 柏市 ランキング

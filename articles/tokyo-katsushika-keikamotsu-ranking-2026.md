@@ -1,7 +1,7 @@
 ---
 # === 記事基本情報 ===
 article_id: ef-ranking-tokyo-katsushika-2026-v2
-title: "葛飾区の軽貨物業者ランキング2026|月収30-80万円・15項目スコアで本当に選ぶべき1社"
+title: "葛飾区 軽貨物業者ランキング2026 | ドライバー求人・料金・対応エリア比較"
 slug: tokyo-katsushika-keikamotsu-ranking-2026
 canonical: https://www.kei-compass.org/articles/tokyo-katsushika-keikamotsu-ranking-2026
 published_at: 2026-05-28
@@ -13,7 +13,7 @@ parent_template: 2026-05-19_ef_ranking_article_template.md
 sibling_article: tokyo-arakawa-keikamotsu-ranking-2026
 
 # === SEO情報 ===
-meta_title: "葛飾区の軽貨物業者ランキング2026|月収30-80万円・15項目で本当に選ぶべき1社"
+meta_title: "葛飾区 軽貨物業者ランキング2026 | ドライバー求人・料金・対応エリア比較"
 meta_description: "東京都葛飾区で軽貨物業務委託を検討する方向け、公開情報15項目で採点した業者ランキング2026年版。葛飾区内本社の地場業者含む9社を比較。月収30-80万円の実例、亀有/金町/新小岩/お花茶屋/堀切の住宅地・常磐線/京成線/総武線の鉄道網・首都高6号三郷線/中央環状線C2/環七通り/水戸街道/奥戸街道の配送動線、埼玉(三郷/八潮)・千葉(松戸/市川)県境クロスボーダー事情も整理。"
 keywords:
   - 軽貨物 葛飾区 ランキング

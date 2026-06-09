@@ -1,7 +1,7 @@
 ---
 # === 記事基本情報 ===
 article_id: ef-ranking-tokyo-edogawa-2026-v2
-title: "江戸川区の軽貨物ドライバー求人 | 軽貨物業者比較ランキング"
+title: "江戸川区 軽貨物業者ランキング2026 | ドライバー求人・料金・対応エリア比較"
 slug: tokyo-edogawa-keikamotsu-ranking-2026
 canonical: https://www.kei-compass.org/articles/tokyo-edogawa-keikamotsu-ranking-2026
 published_at: 2026-05-28
@@ -13,7 +13,7 @@ parent_template: 2026-05-19_ef_ranking_article_template.md
 sibling_article: tokyo-katsushika-keikamotsu-ranking-2026
 
 # === SEO情報 ===
-meta_title: "江戸川区の軽貨物ドライバー求人 | 軽貨物業者比較ランキング"
+meta_title: "江戸川区 軽貨物業者ランキング2026 | ドライバー求人・料金・対応エリア比較"
 meta_description: "東京都江戸川区で軽貨物業務委託を検討する方向け、公開情報15項目で採点した業者ランキング2026年版。江戸川区内本社の地場業者含む9社を比較。月収30-80万円の実例、小岩/葛西/西葛西/船堀/平井の住宅地・JR総武線/京葉線/メトロ東西線/都営新宿線の鉄道網・首都高7号小松川線/中央環状線C2/京葉道路/環七通り/蔵前橋通りの配送動線、千葉(浦安/市川)県境クロスボーダー+人口69万23区第3位の市場規模も整理。"
 keywords:
   - 軽貨物 江戸川区 ランキング

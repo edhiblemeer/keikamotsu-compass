@@ -1,7 +1,7 @@
 ---
 # === 記事基本情報 ===
 article_id: ef-ranking-tokyo-arakawa-2026-v2
-title: "荒川区の軽貨物業者ランキング2026|月収30-80万円・15項目スコアで本当に選ぶべき1社"
+title: "荒川区 軽貨物業者ランキング2026 | ドライバー求人・料金・対応エリア比較"
 slug: tokyo-arakawa-keikamotsu-ranking-2026
 canonical: https://www.kei-compass.org/articles/tokyo-arakawa-keikamotsu-ranking-2026
 published_at: 2026-05-28
@@ -13,7 +13,7 @@ parent_template: 2026-05-19_ef_ranking_article_template.md
 sibling_article: tokyo-adachi-keikamotsu-ranking-2026
 
 # === SEO情報 ===
-meta_title: "荒川区の軽貨物業者ランキング2026|月収30-80万円・15項目で本当に選ぶべき1社"
+meta_title: "荒川区 軽貨物業者ランキング2026 | ドライバー求人・料金・対応エリア比較"
 meta_description: "東京都荒川区で軽貨物業務委託を検討する方向け、公開情報15項目で採点した業者ランキング2026年版。荒川区西日暮里に本社を構えるBST(株式会社ブースト)含む9社を比較。月収30-80万円の実例、西日暮里=JR山手/京浜東北/常磐/千代田/舎人ライナーの5路線結節・町屋/南千住/三河島の住宅地・首都高1号上野線/明治通り/尾竹橋通りの配送動線、足立/台東/文京/北区へのアクセスも整理。"
 keywords:
   - 軽貨物 荒川区 ランキング
