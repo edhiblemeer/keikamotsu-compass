@@ -7,7 +7,7 @@
     "dev": "next dev --webpack",
     "prebuild": "tsx -r dotenv/config scripts/generate-indexnow-key.ts",
     "build": "next build",
-    "postbuild": "tsx -r dotenv/config scripts/indexnow-submit.ts",
+    "postbuild": "tsx -r dotenv/config scripts/seo-submit.ts",
     "start": "next start"
   },
   "dependencies": {
