@@ -42,6 +42,7 @@ const PLANNED_AREAS = [
   { slug: "noda-keikamotsu-ranking-2026", name: "野田市 (国道16号)", status: "公開済" },
   { slug: "kisarazu-keikamotsu-ranking-2026", name: "木更津市 (アクアライン経由)", status: "公開済" },
   { slug: "mobara-keikamotsu-ranking-2026", name: "茂原市 (房総横断道路結節)", status: "公開済" },
+  { slug: "narita-keikamotsu-ranking-2026", name: "成田市 (空港国際物流ハブ)", status: "公開済" },
 ];
 
 export default function ChibaHubPage(): React.ReactElement {

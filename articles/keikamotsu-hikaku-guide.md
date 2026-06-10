@@ -531,6 +531,7 @@ NOTE: 本記事はピラー記事(ガイド型)。
 - [野田市 軽貨物業者ランキング2026(キッコーマン拠点)](/articles/noda-keikamotsu-ranking-2026)
 - [木更津市 軽貨物業者ランキング2026(アクアライン経由・京葉工業地帯)](/articles/kisarazu-keikamotsu-ranking-2026)
 - [茂原市 軽貨物業者ランキング2026(房総横断道路結節・農業/観光物流)](/articles/mobara-keikamotsu-ranking-2026)
+- [成田市 軽貨物業者ランキング2026(成田空港国際物流ハブ・インバウンド観光)](/articles/narita-keikamotsu-ranking-2026)
 - [千葉県軽貨物ハブページ(全エリア)](/areas/chiba)
 
 ---
