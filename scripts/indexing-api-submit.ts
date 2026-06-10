@@ -25,11 +25,19 @@
 const OAUTH_TOKEN_URL = "https://oauth2.googleapis.com/token";
 const INDEXING_API_URL = "https://indexing.googleapis.com/v3/urlNotifications:publish";
 
-// 主要記事 URL list (pillar 3本 + 千葉主要 + 東京主要)
+// 主要記事 URL list
+// pillar 3本 + 千葉東葛3記事 (6/8 deploy・GSC Discovered but not indexed状態・notify強化対象)
+// 既indexedの17本 (千葉8 + 東京9) は除外 (再submit不要)
+// 20area health audit結果 (#138 2026-06-10): indexed 17/20 + 未indexed 3/20 = kashiwa/nagareyama/noda
 const TARGET_URLS = [
+  // pillar 3本
   "https://www.kei-compass.org/articles/keikamotsu-ranking-2026",
   "https://www.kei-compass.org/articles/keikamotsu-hikaku-guide",
   "https://www.kei-compass.org/articles/keikamotsu-cost-guide",
+  // 千葉東葛3記事 (#125 deploy・未indexed・Indexing API notify強化)
+  "https://www.kei-compass.org/articles/kashiwa-keikamotsu-ranking-2026",
+  "https://www.kei-compass.org/articles/nagareyama-keikamotsu-ranking-2026",
+  "https://www.kei-compass.org/articles/noda-keikamotsu-ranking-2026",
 ];
 
 const CLIENT_ID = process.env.GOOGLE_INDEXING_CLIENT_ID;
