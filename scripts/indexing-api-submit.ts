@@ -48,6 +48,8 @@ const TARGET_URLS = [
   "https://www.kei-compass.org/articles/katori-keikamotsu-ranking-2026",
   // 千葉東総 (#154 RR Day31 24h稼働 lp-copywriter委譲・旭九十九里北側+水産+農業)
   "https://www.kei-compass.org/articles/asahi-keikamotsu-ranking-2026",
+  // 千葉北東部内陸 (#155 WW Day31 24h稼働終盤・代表directive 22:55・自前生成・匝瑳植木産地+八日市場+農業内陸)
+  "https://www.kei-compass.org/articles/sosa-keikamotsu-ranking-2026",
 ];
 
 const CLIENT_ID = process.env.GOOGLE_INDEXING_CLIENT_ID;

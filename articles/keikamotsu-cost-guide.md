@@ -628,6 +628,7 @@ Amazon・楽天・ヨドバシ等のEC事業者向け宅配ラストワンマイ
 - [成田市 軽貨物業者ランキング2026 — 成田空港国際物流ハブ+インバウンド観光](/articles/narita-keikamotsu-ranking-2026)
 - [香取市 軽貨物業者ランキング2026 — 水郷+小江戸佐原+茨城県境広域](/articles/katori-keikamotsu-ranking-2026)
 - [旭市 軽貨物業者ランキング2026 — 九十九里北側水産+農業+東総広域](/articles/asahi-keikamotsu-ranking-2026)
+- [匝瑳市 軽貨物業者ランキング2026 — 植木産地+八日市場+農業内陸ベルト](/articles/sosa-keikamotsu-ranking-2026)
 - [千葉県軽貨物ハブページ(全エリア)](/areas/chiba)
 
 ### 東京都

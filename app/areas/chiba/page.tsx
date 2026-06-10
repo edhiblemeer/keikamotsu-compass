@@ -45,6 +45,7 @@ const PLANNED_AREAS = [
   { slug: "narita-keikamotsu-ranking-2026", name: "成田市 (空港国際物流ハブ)", status: "公開済" },
   { slug: "katori-keikamotsu-ranking-2026", name: "香取市 (水郷・小江戸佐原)", status: "公開済" },
   { slug: "asahi-keikamotsu-ranking-2026", name: "旭市 (九十九里北側・水産)", status: "公開済" },
+  { slug: "sosa-keikamotsu-ranking-2026", name: "匝瑳市 (植木産地・八日市場)", status: "公開済" },
 ];
 
 export default function ChibaHubPage(): React.ReactElement {
