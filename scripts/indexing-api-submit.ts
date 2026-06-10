@@ -44,6 +44,10 @@ const TARGET_URLS = [
   "https://www.kei-compass.org/articles/mobara-keikamotsu-ranking-2026",
   // 千葉北東部1記事 (#150 LL Day31 24h稼働 lp-copywriter委譲・成田空港国際物流ハブ)
   "https://www.kei-compass.org/articles/narita-keikamotsu-ranking-2026",
+  // 千葉北東部水郷 (#153 B Day31 24h稼働 lp-copywriter委譲・香取小江戸佐原+茨城県境)
+  "https://www.kei-compass.org/articles/katori-keikamotsu-ranking-2026",
+  // 千葉東総 (#154 RR Day31 24h稼働 lp-copywriter委譲・旭九十九里北側+水産+農業)
+  "https://www.kei-compass.org/articles/asahi-keikamotsu-ranking-2026",
 ];
 
 const CLIENT_ID = process.env.GOOGLE_INDEXING_CLIENT_ID;

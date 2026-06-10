@@ -43,6 +43,8 @@ const PLANNED_AREAS = [
   { slug: "kisarazu-keikamotsu-ranking-2026", name: "木更津市 (アクアライン経由)", status: "公開済" },
   { slug: "mobara-keikamotsu-ranking-2026", name: "茂原市 (房総横断道路結節)", status: "公開済" },
   { slug: "narita-keikamotsu-ranking-2026", name: "成田市 (空港国際物流ハブ)", status: "公開済" },
+  { slug: "katori-keikamotsu-ranking-2026", name: "香取市 (水郷・小江戸佐原)", status: "公開済" },
+  { slug: "asahi-keikamotsu-ranking-2026", name: "旭市 (九十九里北側・水産)", status: "公開済" },
 ];
 
 export default function ChibaHubPage(): React.ReactElement {

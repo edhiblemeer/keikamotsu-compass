@@ -711,6 +711,8 @@ ranking-cards は QuickRankingCards で render (frontmatter companies が source
 - [木更津市 軽貨物業者ランキング2026(アクアライン経由・京葉工業地帯)](/articles/kisarazu-keikamotsu-ranking-2026)
 - [茂原市 軽貨物業者ランキング2026(房総横断道路結節・農業/観光物流)](/articles/mobara-keikamotsu-ranking-2026)
 - [成田市 軽貨物業者ランキング2026(成田空港国際物流ハブ・インバウンド観光)](/articles/narita-keikamotsu-ranking-2026)
+- [香取市 軽貨物業者ランキング2026(水郷・小江戸佐原・茨城県境)](/articles/katori-keikamotsu-ranking-2026)
+- [旭市 軽貨物業者ランキング2026(九十九里北側・飯岡漁港・東総)](/articles/asahi-keikamotsu-ranking-2026)
 - [千葉県ハブページ(全エリア)](/areas/chiba)
 
 ### 関西地方 (大阪/兵庫/京都/奈良/滋賀/和歌山)
