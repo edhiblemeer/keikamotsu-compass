@@ -38,6 +38,8 @@ const TARGET_URLS = [
   "https://www.kei-compass.org/articles/kashiwa-keikamotsu-ranking-2026",
   "https://www.kei-compass.org/articles/nagareyama-keikamotsu-ranking-2026",
   "https://www.kei-compass.org/articles/noda-keikamotsu-ranking-2026",
+  // 千葉外房1記事 (#146 K Day31 24h稼働 lp-copywriter委譲)
+  "https://www.kei-compass.org/articles/kisarazu-keikamotsu-ranking-2026",
 ];
 
 const CLIENT_ID = process.env.GOOGLE_INDEXING_CLIENT_ID;
