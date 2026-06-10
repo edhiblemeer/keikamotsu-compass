@@ -40,6 +40,7 @@ const PLANNED_AREAS = [
   { slug: "kashiwa-keikamotsu-ranking-2026", name: "柏市 (東葛HUB)", status: "公開済" },
   { slug: "nagareyama-keikamotsu-ranking-2026", name: "流山市 (TX沿線)", status: "公開済" },
   { slug: "noda-keikamotsu-ranking-2026", name: "野田市 (国道16号)", status: "公開済" },
+  { slug: "kisarazu-keikamotsu-ranking-2026", name: "木更津市 (アクアライン経由)", status: "公開済" },
 ];
 
 export default function ChibaHubPage(): React.ReactElement {
