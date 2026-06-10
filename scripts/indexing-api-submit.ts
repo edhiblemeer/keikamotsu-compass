@@ -54,6 +54,8 @@ const TARGET_URLS = [
   "https://www.kei-compass.org/articles/tokyo-toshima-keikamotsu-ranking-2026",
   // 東京拡張2本目 (#159 Day32-A2・文京区=医療+大学+出版の知的インフラ物流)
   "https://www.kei-compass.org/articles/tokyo-bunkyo-keikamotsu-ranking-2026",
+  // 東京拡張3本目 (#160 Day32-A3・墨田区=スカイツリー観光商業+町工場ものづくり)
+  "https://www.kei-compass.org/articles/tokyo-sumida-keikamotsu-ranking-2026",
 ];
 
 const CLIENT_ID = process.env.GOOGLE_INDEXING_CLIENT_ID;
