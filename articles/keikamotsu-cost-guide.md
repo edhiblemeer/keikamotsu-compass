@@ -623,6 +623,7 @@ Amazon・楽天・ヨドバシ等のEC事業者向け宅配ラストワンマイ
 - [船橋市 軽貨物業者ランキング2026 — 家具配送・湾岸大型荷主](/articles/chiba-funabashi-keikamotsu-ranking-2026)
 - [市川市 軽貨物業者ランキング2026 — EC湾岸ラストワンマイル](/articles/ichikawa-keikamotsu-ranking-2026)
 - [千葉市 軽貨物業者ランキング2026 — 政令市インフラ+港](/articles/chiba-shi-keikamotsu-ranking-2026)
+- [木更津市 軽貨物業者ランキング2026 — アクアライン経由都内アクセス+京葉工業地帯](/articles/kisarazu-keikamotsu-ranking-2026)
 - [千葉県軽貨物ハブページ(全エリア)](/areas/chiba)
 
 ### 東京都

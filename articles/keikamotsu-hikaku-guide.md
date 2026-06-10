@@ -528,6 +528,8 @@ NOTE: 本記事はピラー記事(ガイド型)。
 - [我孫子市 軽貨物業者ランキング2026(常磐線結節+利根川県境)](/articles/abiko-keikamotsu-ranking-2026)
 - [流山市 軽貨物業者ランキング2026(TX沿線・若年人口増)](/articles/nagareyama-keikamotsu-ranking-2026)
 - [鎌ケ谷市 軽貨物業者ランキング2026](/articles/kamagaya-keikamotsu-ranking-2026)
+- [野田市 軽貨物業者ランキング2026(キッコーマン拠点)](/articles/noda-keikamotsu-ranking-2026)
+- [木更津市 軽貨物業者ランキング2026(アクアライン経由・京葉工業地帯)](/articles/kisarazu-keikamotsu-ranking-2026)
 - [千葉県軽貨物ハブページ(全エリア)](/areas/chiba)
 
 ---

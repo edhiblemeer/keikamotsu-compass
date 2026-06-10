@@ -708,6 +708,7 @@ ranking-cards は QuickRankingCards で render (frontmatter companies が source
 - [鎌ケ谷市 軽貨物業者ランキング2026](/articles/kamagaya-keikamotsu-ranking-2026)
 - [流山市 軽貨物業者ランキング2026(TX沿線)](/articles/nagareyama-keikamotsu-ranking-2026)
 - [野田市 軽貨物業者ランキング2026(キッコーマン拠点)](/articles/noda-keikamotsu-ranking-2026)
+- [木更津市 軽貨物業者ランキング2026(アクアライン経由・京葉工業地帯)](/articles/kisarazu-keikamotsu-ranking-2026)
 - [千葉県ハブページ(全エリア)](/areas/chiba)
 
 ### 関西地方 (大阪/兵庫/京都/奈良/滋賀/和歌山)
