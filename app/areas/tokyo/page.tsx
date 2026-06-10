@@ -38,6 +38,7 @@ const PLANNED_AREAS = [
   { slug: "tokyo-edogawa-keikamotsu-ranking-2026", name: "江戸川区", status: "公開済" },
   { slug: "tokyo-taito-keikamotsu-ranking-2026", name: "台東区", status: "公開済" },
   { slug: "tokyo-koto-keikamotsu-ranking-2026", name: "江東区", status: "公開済" },
+  { slug: "tokyo-toshima-keikamotsu-ranking-2026", name: "豊島区 (池袋ターミナル商業)", status: "公開済" },
 ];
 
 export default function TokyoHubPage(): React.ReactElement {
