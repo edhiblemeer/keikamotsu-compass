@@ -56,6 +56,8 @@ const TARGET_URLS = [
   "https://www.kei-compass.org/articles/tokyo-bunkyo-keikamotsu-ranking-2026",
   // 東京拡張3本目 (#160 Day32-A3・墨田区=スカイツリー観光商業+町工場ものづくり)
   "https://www.kei-compass.org/articles/tokyo-sumida-keikamotsu-ranking-2026",
+  // 東京拡張4本目 (#162 Day32-A4・大田区=羽田空港物流ハブ+京浜TT+大田市場+24h国際物流)
+  "https://www.kei-compass.org/articles/tokyo-ota-keikamotsu-ranking-2026",
 ];
 
 const CLIENT_ID = process.env.GOOGLE_INDEXING_CLIENT_ID;

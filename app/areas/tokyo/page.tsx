@@ -41,6 +41,7 @@ const PLANNED_AREAS = [
   { slug: "tokyo-toshima-keikamotsu-ranking-2026", name: "豊島区 (池袋ターミナル商業)", status: "公開済" },
   { slug: "tokyo-bunkyo-keikamotsu-ranking-2026", name: "文京区 (医療・大学・出版)", status: "公開済" },
   { slug: "tokyo-sumida-keikamotsu-ranking-2026", name: "墨田区 (スカイツリー・ものづくり)", status: "公開済" },
+  { slug: "tokyo-ota-keikamotsu-ranking-2026", name: "大田区 (羽田空港・京浜TT・大田市場)", status: "公開済" },
 ];
 
 export default function TokyoHubPage(): React.ReactElement {
