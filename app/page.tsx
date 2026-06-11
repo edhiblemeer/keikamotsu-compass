@@ -6,7 +6,7 @@ export default function HomePage(): React.ReactElement {
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-12 md:px-6 md:py-16">
-      <section className="mb-12">
+      <section className="mb-10">
         <h1 className="font-extrabold text-3xl tracking-tight md:text-4xl">
           軽貨物業者の<span className="text-[hsl(var(--accent))]">公開情報スコア</span>ランキング
         </h1>
@@ -16,6 +16,30 @@ export default function HomePage(): React.ReactElement {
           15項目で機械的に採点したランキングをお届けします。
         </p>
       </section>
+
+      <aside
+        aria-label="未経験OKドライバー求人"
+        className="mb-12 rounded-xl border border-[hsl(var(--accent))]/30 bg-[hsl(var(--accent))]/5 p-5 md:p-6"
+      >
+        <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-widest text-[hsl(var(--accent))]">
+              Recruit
+            </p>
+            <p className="mt-1 text-sm leading-relaxed text-[hsl(var(--foreground))] md:text-base">
+              東京で軽貨物を始める方へ — 未経験OKドライバー求人はこちら
+            </p>
+          </div>
+          <Link
+            href="https://www.logi-boost.org/recruit/tokyo"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex shrink-0 items-center justify-center rounded-lg bg-[hsl(var(--accent))] px-4 py-2 text-sm font-semibold text-white transition-opacity hover:opacity-90 md:text-base"
+          >
+            求人を見る →
+          </Link>
+        </div>
+      </aside>
 
       <section>
         <h2 className="border-l-4 border-[hsl(var(--accent))] pl-3 font-extrabold text-xl tracking-tight md:text-2xl">

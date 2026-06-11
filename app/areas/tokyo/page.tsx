@@ -149,6 +149,30 @@ export default function TokyoHubPage(): React.ReactElement {
         </ul>
       </section>
 
+      <aside
+        aria-label="未経験OKドライバー求人"
+        className="mt-12 rounded-xl border border-[hsl(var(--accent))]/30 bg-[hsl(var(--accent))]/5 p-5 md:p-6"
+      >
+        <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-widest text-[hsl(var(--accent))]">
+              Recruit
+            </p>
+            <p className="mt-1 text-sm leading-relaxed text-[hsl(var(--foreground))] md:text-base">
+              東京で軽貨物を始める方へ — 未経験OKドライバー求人はこちら
+            </p>
+          </div>
+          <Link
+            href="https://www.logi-boost.org/recruit/tokyo"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex shrink-0 items-center justify-center rounded-lg bg-[hsl(var(--accent))] px-4 py-2 text-sm font-semibold text-white transition-opacity hover:opacity-90 md:text-base"
+          >
+            求人を見る →
+          </Link>
+        </div>
+      </aside>
+
       <section className="mt-12">
         <h2 className="mb-5 border-l-4 border-[hsl(var(--accent))] pl-3 font-extrabold text-xl tracking-tight md:text-2xl">
           関連エリアハブ
