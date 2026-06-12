@@ -1,5 +1,25 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { getAllArticleSummaries } from "@/lib/articles";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/",
+    languages: {
+      "ja-JP": "/",
+      "x-default": "/",
+    },
+  },
+  openGraph: {
+    title: "軽貨物コンパス | 軽貨物業者比較ランキングメディア",
+    description:
+      "関東(東京・千葉)のエリアごとに軽貨物業者を比較するランキングメディア。 公開情報15項目で機械的に採点、 業務委託検討者向けに業者選定の判断材料を提供します。 運営: 株式会社EST FORT。",
+    url: "/",
+    type: "website",
+    locale: "ja_JP",
+    siteName: "軽貨物コンパス",
+  },
+};
 
 export default function HomePage(): React.ReactElement {
   const articles = getAllArticleSummaries();
