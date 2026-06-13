@@ -362,7 +362,7 @@ relationship_disclosure:
   show_in_sections: ["hero", "ranking_cards", "detail_gold", "cta", "footer"]
 
 # === ArticleFrontmatter 互換 field ===
-description: "東京都板橋区で軽貨物業務委託を検討する方向け、 公開情報15項目で採点した業者ランキング2026年版。 板橋区内本社のM&Y・Green Drive・BOND含む9社を比較。 月収30-80万円の実例、 首都高5号池袋線・環八通り・川越街道の配送動線、 MFLP東京板橋など物流施設集積・高島平団地・埼玉県境クロスボーダー事情も整理。"
+description: "東京都板橋区で軽貨物業務委託を検討する方向け、公開情報15項目で採点した9社比較ランキング2026年版。区内本社M&Y/Green Drive/BOND含む。月収30-80万円実例、首都高5号池袋線/環八通り/川越街道の動線、MFLP東京板橋など物流施設集積、高島平団地、埼玉県境(戸田/和光)クロスボーダーも整理。"
 publishedAt: "2026-05-25"
 updatedAt: "2026-05-25"
 area_label: "板橋区"

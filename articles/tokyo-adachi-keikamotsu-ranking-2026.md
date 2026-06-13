@@ -359,7 +359,7 @@ relationship_disclosure:
   show_in_sections: ["hero", "ranking_cards", "detail_gold", "cta", "footer"]
 
 # === ArticleFrontmatter 互換 field ===
-description: "東京都足立区で軽貨物業務委託を検討する方向け、 公開情報15項目で採点した業者ランキング2026年版。 足立区内本社のK VANCREW・Towa Express・SG含む9社を比較。 月収30-80万円の実例、 北千住=5路線結節の巨大ターミナル・足立トラックターミナル(東北/上越/常磐ゲートウェイ)・都内唯一2市場(北足立市場=青果花き)・人口70万23区最大級・環七通り/国道4号(日光街道)の配送動線も整理。"
+description: "東京都足立区で軽貨物業務委託を検討する方向け、公開情報15項目で採点した9社比較ランキング2026年版。区内本社K VANCREW/Towa Express/SG含む。月収30-80万円実例、北千住=5路線結節ターミナル、足立TT(東北/上越/常磐ゲートウェイ)、北足立市場、人口70万23区最大級、環七/国道4号(日光街道)動線も整理。"
 publishedAt: "2026-05-25"
 updatedAt: "2026-05-25"
 area_label: "足立区"

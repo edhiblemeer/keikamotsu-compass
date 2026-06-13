@@ -294,7 +294,7 @@ relationship_disclosure:
   show_in_sections: ["hero", "ranking_cards", "detail_gold", "cta", "footer"]
 
 # === ArticleFrontmatter 互換 field (lib/articles.ts interface 対応) ===
-description: "千葉県市川市で軽貨物業務委託を検討する方向け、 公開情報15項目で採点した業者ランキング2026年版。 市川本社のシェイクハート・パワーカーゴ含む9社を比較。 月収40-90万円の実例、 京葉道路/湾岸道路アクセス事情も整理。"
+description: "市川市で軽貨物ドライバー求人・業務委託を探す方向け、公開情報15項目で採点した9社比較ランキング2026年版。市川=Amazon NRT1・湾岸物流回廊50万㎡集積のEC配送で稼げるエリア、未経験1-3ヶ月25-35万円/経験者40-80万円の月収レンジ、市川本社シェイクハート・パワーカーゴ含む9社で稼ぐコツ・継続率を整理。"
 publishedAt: "2026-05-20"
 updatedAt: "2026-05-20"
 area_label: "千葉市川エリア"

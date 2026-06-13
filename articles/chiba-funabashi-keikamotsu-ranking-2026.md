@@ -228,7 +228,7 @@ relationship_disclosure:
   show_in_sections: ["hero", "ranking_cards", "detail_gold", "cta", "footer"]
 
 # === ArticleFrontmatter 互換 field (lib/articles.ts interface 対応) ===
-description: "千葉県船橋・市川・松戸・浦安・八千代エリアで軽貨物業務委託を検討する方向け、 公開情報15項目で採点した業者ランキング2026年版。 月収50-90万円の実例、 規制対応・継続率を一覧整理。 詳細版14,000字も掲載。"
+description: "船橋市で軽貨物ドライバー求人・業務委託を探す方向け、公開情報15項目で採点した9社比較ランキング2026年版。船橋=2人1組家具配送(才数建て)で稼げるエリア、未経験1-3ヶ月25-35万円/経験者50-90万円の月収レンジ、稼ぐコツ・規制対応・継続率を整理。船橋本社業者+9社比較で稼げる業者の選び方+詳細版掲載。"
 publishedAt: "2026-05-19"
 updatedAt: "2026-05-19"
 area_label: "千葉船橋エリア"
