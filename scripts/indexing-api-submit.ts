@@ -60,6 +60,8 @@ const TARGET_URLS = [
   "https://www.kei-compass.org/articles/tokyo-ota-keikamotsu-ranking-2026",
   // 千葉横展開1本目 (#185 Day34・鎌ケ谷=新鎌ヶ谷3路線交差ターミナル+船橋松戸クロスボーダー)
   "https://www.kei-compass.org/articles/kamagaya-keikamotsu-ranking-2026",
+  // 千葉横展開2本目 (#185 Day34・白井=北総線一本+印西/鎌ヶ谷クロスボーダー+梨の名産地)
+  "https://www.kei-compass.org/articles/shiroi-keikamotsu-ranking-2026",
 ];
 
 const CLIENT_ID = process.env.GOOGLE_INDEXING_CLIENT_ID;
