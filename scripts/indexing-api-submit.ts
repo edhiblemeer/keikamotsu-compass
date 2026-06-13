@@ -62,6 +62,8 @@ const TARGET_URLS = [
   "https://www.kei-compass.org/articles/kamagaya-keikamotsu-ranking-2026",
   // 千葉横展開2本目 (#185 Day34・白井=北総線一本+印西/鎌ヶ谷クロスボーダー+梨の名産地)
   "https://www.kei-compass.org/articles/shiroi-keikamotsu-ranking-2026",
+  // 千葉横展開3本目 (#187 Day35・習志野=JR津田沼共通ターミナル+京成3駅+大学集積)
+  "https://www.kei-compass.org/articles/narashino-keikamotsu-ranking-2026",
 ];
 
 const CLIENT_ID = process.env.GOOGLE_INDEXING_CLIENT_ID;
